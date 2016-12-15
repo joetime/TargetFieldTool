@@ -22,13 +22,13 @@
 <td class="chartheadersnobg">Relationships</td><td class="regularcharttext"><a href="#valRelationshipsSectionAnchor_">10</a></td>
 </tr>
 <tr>
-<td class="chartheadersnobg">Layouts</td><td class="regularcharttext"><a href="#valLayoutsSectionAnchor_">16</a></td>
+<td class="chartheadersnobg">Layouts</td><td class="regularcharttext"><a href="#valLayoutsSectionAnchor_">21</a></td>
 </tr>
 <tr>
-<td class="chartheadersnobg">Scripts</td><td class="regularcharttext"><a href="#valScriptsSectionAnchor_">14</a></td>
+<td class="chartheadersnobg">Scripts</td><td class="regularcharttext"><a href="#valScriptsSectionAnchor_">17</a></td>
 </tr>
 <tr>
-<td class="chartheadersnobg">Value Lists</td><td class="regularcharttext"><a href="#valValueListsSectionAnchor_">17</a></td>
+<td class="chartheadersnobg">Value Lists</td><td class="regularcharttext"><a href="#valValueListsSectionAnchor_">21</a></td>
 </tr>
 <tr>
 <td class="chartheadersnobg">Custom Functions</td><td class="regularcharttext">0</td>
@@ -122,13 +122,13 @@
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#130BaseTableAnchor_">Sites</a></td><td>
-<div align="left"><a href="#130BaseTableAnchor_">19 fields</a> defined, 1806 records</div>
+<div align="left"><a href="#130BaseTableAnchor_">19 fields</a> defined, 1805 records</div>
 </td><td><a href="#1065107TableAnchor_"><em>Sites 2</em></a>, <a href="#1065103TableAnchor_"><em>Sites in State</em></a>, <a href="#1065090TableAnchor_"><em>Sites</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#134BaseTableAnchor_">Assets</a></td><td>
-<div align="left"><a href="#134BaseTableAnchor_">41 fields</a> defined, 48 records</div>
-</td><td><a href="#1065108TableAnchor_"><em>Assets</em></a>, <a href="#1065104TableAnchor_"><em>CategoryType</em></a>, <a href="#1065100TableAnchor_"><em>Asset CategoryType</em></a>, <a href="#1065101TableAnchor_"><em>Asset Current Template</em></a>, <a href="#1065099TableAnchor_"><em>Asset Templates</em></a>, <a href="#1065098TableAnchor_"><em>Asset Records</em></a></td>
+<div align="left"><a href="#134BaseTableAnchor_">46 fields</a> defined, 53 records</div>
+</td><td><a href="#1065098TableAnchor_"><em>Asset Records</em></a>, <a href="#1065099TableAnchor_"><em>Asset Templates</em></a>, <a href="#1065108TableAnchor_"><em>Assets</em></a>, <a href="#1065104TableAnchor_"><em>CategoryType</em></a>, <a href="#1065100TableAnchor_"><em>Asset CategoryType</em></a>, <a href="#1065101TableAnchor_"><em>Asset Current Template</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#135BaseTableAnchor_">Refrigerant Types</a></td><td>
@@ -138,7 +138,7 @@
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#136BaseTableAnchor_">Admin</a></td><td>
 <div align="left"><a href="#136BaseTableAnchor_">1 field</a> defined, 1 record</div>
-</td><td><a href="#1065106TableAnchor_"><em>Admin 2</em></a>, <a href="#1065105TableAnchor_"><em>Admin</em></a></td>
+</td><td><a href="#1065105TableAnchor_"><em>Admin</em></a>, <a href="#1065106TableAnchor_"><em>Admin 2</em></a></td>
 </tr>
 </tbody>
 </table>
@@ -233,7 +233,7 @@
 </ul>
 </td><td>
 <ul>
-<li><a href="#Sites=Asset TemplatesRelationshipAnchor_"><em>Sites=Asset Templates</em></a></li>
+<li><a href="#Sites&infin;Asset TemplatesRelationshipAnchor_"><em>Sites&infin;Asset Templates</em></a></li>
 </ul>
 </td><td>
 <ul>
@@ -245,7 +245,9 @@
 </tr>
 			<tr class="regularcharttext" vAlign="top">
 <td><a name="1301FieldAnchor_"/>Site ID</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
-<ul></ul>
+<ul>
+<li>Allow editing</li>
+</ul>
 <strong>Validation:</strong>
 <ul>
 <li>Only during data entry</li>
@@ -263,16 +265,18 @@
 <li><a href="#4LayoutAnchor_">Site Overview</a></li>
 <li><a href="#12LayoutAnchor_">Site Table</a></li>
 <li><a href="#16LayoutAnchor_">Site Assets</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 <li><a href="#9LayoutAnchor_">Site Assets</a></li>
 </ul>
 </td><td>
 <ul>
+<li><a href="#Sites&infin;Asset TemplatesRelationshipAnchor_"><em>Sites&infin;Asset Templates</em></a></li>
 <li><a href="#Sites=Asset RecordsRelationshipAnchor_"><em>Sites=Asset Records</em></a></li>
 <li><a href="#Sites&infin;Sites in StateRelationshipAnchor_"><em>Sites&infin;Sites in State</em></a></li>
 </ul>
 </td><td>
 <ul>
-<li><a href="#14ScriptAnchor_">New Asset Record</a></li>
+<li><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></li>
 <li><a href="#26ScriptAnchor_">EXPORT FOR GIT</a></li>
 </ul>
 </td><td>
@@ -363,6 +367,7 @@
 <li><a href="#12LayoutAnchor_">Site Table</a></li>
 <li><a href="#16LayoutAnchor_">Site Assets</a></li>
 <li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 <li><a href="#9LayoutAnchor_">Site Assets</a></li>
 </ul>
 </td><td>
@@ -396,6 +401,7 @@
 <li><a href="#12LayoutAnchor_">Site Table</a></li>
 <li><a href="#16LayoutAnchor_">Site Assets</a></li>
 <li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 <li><a href="#9LayoutAnchor_">Site Assets</a></li>
 </ul>
 </td><td>
@@ -545,6 +551,7 @@
 </ul>
 </td><td></td><td>
 <ul>
+<li><a href="#4LayoutAnchor_">Site Overview</a></li>
 <li><a href="#12LayoutAnchor_">Site Table</a></li>
 </ul>
 </td><td>
@@ -575,6 +582,7 @@
 </ul>
 </td><td></td><td>
 <ul>
+<li><a href="#4LayoutAnchor_">Site Overview</a></li>
 <li><a href="#12LayoutAnchor_">Site Table</a></li>
 </ul>
 </td><td>
@@ -735,7 +743,7 @@
 		<table width="100%" border="1">
 <tbody>
 <tr class="privsetfirst" vAlign="top">
-<td colSpan="9">Table Name: <a name="134BaseTableAnchor_"/>Assets - 41 Fields</td>
+<td colSpan="9">Table Name: <a name="134BaseTableAnchor_"/>Assets - 46 Fields</td>
 </tr>
 <tr class="chartheaders" vAlign="top">
 <td width="8%">Field Name</td><td width="7%">Type</td><td width="14%">Options</td><td width="10%">Comments</td><td width="13%">On Layouts</td><td width="15%">In Relationships</td><td width="22%">In Scripts</td><td width="11%">In Value Lists</td>
@@ -761,8 +769,9 @@
 <ul></ul>
 </td><td>
 <ul>
-<li><a href="#Sites=Asset TemplatesRelationshipAnchor_"><em>Sites=Asset Templates</em></a></li>
+<li><a href="#Sites&infin;Asset TemplatesRelationshipAnchor_"><em>Sites&infin;Asset Templates</em></a></li>
 <li><a href="#Sites=Asset RecordsRelationshipAnchor_"><em>Sites=Asset Records</em></a></li>
+<li><a href="#Asset Records&infin;Asset Current TemplateRelationshipAnchor_"><em>Asset Records&infin;Asset Current Template</em></a></li>
 </ul>
 </td><td>
 <ul></ul>
@@ -777,8 +786,9 @@
 </ul>
 <strong>Validation:</strong>
 <ul>
-<li>Always Validate</li>
+<li>Only during data entry</li>
 <li>Not empty</li>
+<li>Strict validation</li>
 </ul>
 <strong>Storage:</strong>
 <ul>
@@ -810,8 +820,9 @@
 </ul>
 <strong>Validation:</strong>
 <ul>
-<li>Always Validate</li>
+<li>Only during data entry</li>
 <li>Not empty</li>
+<li>Strict validation</li>
 </ul>
 <strong>Storage:</strong>
 <ul>
@@ -915,6 +926,32 @@
 <ul>
 <li><a href="#10VLAnchor_">USED Area ServedServiced</a></li>
 </ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13446FieldAnchor_"/>Target Tag</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+<li>Indexing: None</li>
+<li>Automatically create indexes as needed</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
 </td>
 </tr>
 			<tr class="regularcharttext" vAlign="top">
@@ -1789,7 +1826,10 @@
 <li>
 <strong>If</strong> ( <a href="#13437FieldAnchor_"><em>Asset Records</em>::Photo1</a> = "" ; 0 ; 1 ) +
 <strong>If</strong> ( <a href="#13438FieldAnchor_"><em>Asset Records</em>::Photo2</a> = "" ; 0 ; 1 ) +
-<strong>If</strong> ( <a href="#13439FieldAnchor_"><em>Asset Records</em>::Photo3</a> = "" ; 0 ; 1 )</li>
+<strong>If</strong> ( <a href="#13439FieldAnchor_"><em>Asset Records</em>::Photo3</a> = "" ; 0 ; 1 ) + 
+<strong>If</strong> ( <a href="#13443FieldAnchor_"><em>Asset Records</em>::Photo4</a> = "" ; 0 ; 1 ) +
+<strong>If</strong> ( <a href="#13444FieldAnchor_"><em>Asset Records</em>::Photo5</a> = "" ; 0 ; 1 ) +
+<strong>If</strong> ( <a href="#13445FieldAnchor_"><em>Asset Records</em>::Photo6</a> = "" ; 0 ; 1 )</li>
 </ul>
 <strong>Storage:</strong>
 <ul>
@@ -1830,6 +1870,102 @@
 <li><a href="#Assets=Admin 2RelationshipAnchor_"><em>Assets=Admin 2</em></a></li>
 <li><a href="#Refrigerant Types 2=AssetsRelationshipAnchor_"><em>Refrigerant Types 2=Assets</em></a></li>
 </ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13442FieldAnchor_"/>TEMPLATE KEY</td><td>Normal, Text</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Global</li>
+<li>Repetitions: 1</li>
+<li>Index Language: English</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#Asset Records&infin;Asset Current TemplateRelationshipAnchor_"><em>Asset Records&infin;Asset Current Template</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13443FieldAnchor_"/>Photo4</td><td>Normal, Binary</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13444FieldAnchor_"/>Photo5</td><td>Normal, Binary</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+			<tr class="regularcharttext" vAlign="top">
+<td><a name="13445FieldAnchor_"/>Photo6</td><td>Normal, Binary</td><td><strong>Auto-Enter:</strong>
+<ul>
+<li>Allow editing</li>
+</ul>
+<strong>Validation:</strong>
+<ul>
+<li>Only during data entry</li>
+</ul>
+<strong>Storage:</strong>
+<ul>
+<li>Repetitions: 1</li>
+</ul>
+</td><td></td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
 </td><td>
 <ul></ul>
 </td><td>
@@ -1972,6 +2108,86 @@
 <td width="9%">Table Occurrence</td><td width="13%">Source Table</td><td width="11%">Source File</td><td width="16%">In Relationships</td><td width="12%">In Scripts</td><td width="16%">In Field Definitions</td><td width="13%">In Value Lists</td><td width="10%">Associated with layouts</td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
+<td bgColor="#787878"><a name="1065098TableAnchor_"/><em>Asset Records</em></td><td><a href="#134BaseTableAnchor_">Assets</a></td><td>Target Field Tool.fmp12</td><td>
+<ul>
+<li><a href="#Sites=Asset RecordsRelationshipAnchor_"><em>Sites=Asset Records</em></a></li>
+<li><a href="#Asset CategoryType=Asset RecordsRelationshipAnchor_"><em>Asset CategoryType=Asset Records</em></a></li>
+<li><a href="#Asset Records&infin;Asset Current TemplateRelationshipAnchor_"><em>Asset Records&infin;Asset Current Template</em></a></li>
+<li><a href="#Asset Records=Refrigerant TypesRelationshipAnchor_"><em>Asset Records=Refrigerant Types</em></a></li>
+<li><a href="#Asset Records=CategoryTypeRelationshipAnchor_"><em>Asset Records=CategoryType</em></a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#28ScriptAnchor_">Scan Asset Name</a></li>
+<li><a href="#13ScriptAnchor_">Open Asset Record</a></li>
+<li><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></li>
+<li><a href="#15ScriptAnchor_">Asset | Apply Template</a></li>
+<li><a href="#16ScriptAnchor_">Asset Form | Clear Type</a></li>
+<li><a href="#17ScriptAnchor_">Asset Category SELECT</a></li>
+<li><a href="#18ScriptAnchor_">Site Assets NEW</a></li>
+<li><a href="#19ScriptAnchor_">Open Camera if Empty</a></li>
+<li><a href="#25ScriptAnchor_">Duplicate Record</a></li>
+<li><a href="#26ScriptAnchor_">EXPORT FOR GIT</a></li>
+<li><a href="#29ScriptAnchor_">Save Last Location</a></li>
+<li><a href="#30ScriptAnchor_">New Refrigerated Case from Form</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#13016FieldAnchor_"><em>Sites</em>::AssetCount</a></li>
+<li><a href="#13440FieldAnchor_"><em>Assets</em>::PhotoCount</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#8VLAnchor_">USED Years</a></li>
+<li><a href="#9VLAnchor_">USED Locations</a></li>
+<li><a href="#10VLAnchor_">USED Area ServedServiced</a></li>
+<li><a href="#11VLAnchor_">USED Make</a></li>
+<li><a href="#12VLAnchor_">USED Model</a></li>
+<li><a href="#13VLAnchor_">LOOKUP+ Refrigerant Types</a></li>
+<li><a href="#16VLAnchor_">USED Lighting Manufactuer</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+<li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td bgColor="#777777"><a name="1065099TableAnchor_"/><em>Asset Templates</em></td><td><a href="#134BaseTableAnchor_">Assets</a></td><td>Target Field Tool.fmp12</td><td>
+<ul>
+<li><a href="#Sites&infin;Asset TemplatesRelationshipAnchor_"><em>Sites&infin;Asset Templates</em></a></li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul>
+<li><a href="#4VLAnchor_">Asset Categories</a></li>
+<li><a href="#7VLAnchor_">Units of Measure</a></li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
+<td bgColor="#787878"><a name="1065105TableAnchor_"/><em>Admin</em></td><td><a href="#136BaseTableAnchor_">Admin</a></td><td>Target Field Tool.fmp12</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td>
+</tr>
+<tr class="regularcharttext" vAlign="top">
 <td bgColor="#787878"><a name="1065109TableAnchor_"/><em>Refrigerant Types 2</em></td><td><a href="#135BaseTableAnchor_">Refrigerant Types</a></td><td>Target Field Tool.fmp12</td><td>
 <ul>
 <li><a href="#Refrigerant Types 2=AssetsRelationshipAnchor_"><em>Refrigerant Types 2=Assets</em></a></li>
@@ -2108,69 +2324,6 @@
 </td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
-<td bgColor="#777777"><a name="1065099TableAnchor_"/><em>Asset Templates</em></td><td><a href="#134BaseTableAnchor_">Assets</a></td><td>Target Field Tool.fmp12</td><td>
-<ul>
-<li><a href="#Sites=Asset TemplatesRelationshipAnchor_"><em>Sites=Asset Templates</em></a></li>
-</ul>
-</td><td>
-<ul></ul>
-</td><td>
-<ul></ul>
-</td><td>
-<ul>
-<li><a href="#4VLAnchor_">Asset Categories</a></li>
-<li><a href="#7VLAnchor_">Units of Measure</a></li>
-</ul>
-</td><td>
-<ul>
-<li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
-</ul>
-</td>
-</tr>
-<tr class="regularcharttext" vAlign="top">
-<td bgColor="#787878"><a name="1065098TableAnchor_"/><em>Asset Records</em></td><td><a href="#134BaseTableAnchor_">Assets</a></td><td>Target Field Tool.fmp12</td><td>
-<ul>
-<li><a href="#Sites=Asset RecordsRelationshipAnchor_"><em>Sites=Asset Records</em></a></li>
-<li><a href="#Asset CategoryType=Asset RecordsRelationshipAnchor_"><em>Asset CategoryType=Asset Records</em></a></li>
-<li><a href="#Asset Records&infin;Asset Current TemplateRelationshipAnchor_"><em>Asset Records&infin;Asset Current Template</em></a></li>
-<li><a href="#Asset Records=Refrigerant TypesRelationshipAnchor_"><em>Asset Records=Refrigerant Types</em></a></li>
-<li><a href="#Asset Records=CategoryTypeRelationshipAnchor_"><em>Asset Records=CategoryType</em></a></li>
-</ul>
-</td><td>
-<ul>
-<li><a href="#13ScriptAnchor_">Open Asset Record</a></li>
-<li><a href="#14ScriptAnchor_">New Asset Record</a></li>
-<li><a href="#15ScriptAnchor_">Asset | Apply Template</a></li>
-<li><a href="#16ScriptAnchor_">Asset Form | Clear Type</a></li>
-<li><a href="#17ScriptAnchor_">Asset Category SELECT</a></li>
-<li><a href="#18ScriptAnchor_">Site Assets NEW</a></li>
-<li><a href="#19ScriptAnchor_">Open Camera if Empty</a></li>
-<li><a href="#25ScriptAnchor_">Duplicate Record</a></li>
-<li><a href="#26ScriptAnchor_">EXPORT FOR GIT</a></li>
-</ul>
-</td><td>
-<ul>
-<li><a href="#13016FieldAnchor_"><em>Sites</em>::AssetCount</a></li>
-<li><a href="#13440FieldAnchor_"><em>Assets</em>::PhotoCount</a></li>
-</ul>
-</td><td>
-<ul>
-<li><a href="#8VLAnchor_">USED Years</a></li>
-<li><a href="#9VLAnchor_">USED Locations</a></li>
-<li><a href="#10VLAnchor_">USED Area ServedServiced</a></li>
-<li><a href="#11VLAnchor_">USED Make</a></li>
-<li><a href="#12VLAnchor_">USED Model</a></li>
-<li><a href="#13VLAnchor_">LOOKUP+ Refrigerant Types</a></li>
-<li><a href="#16VLAnchor_">USED Lighting Manufactuer</a></li>
-</ul>
-</td><td>
-<ul>
-<li><a href="#16LayoutAnchor_">Site Assets</a></li>
-<li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
-</ul>
-</td>
-</tr>
-<tr class="regularcharttext" vAlign="top">
 <td bgColor="#787878"><a name="1065103TableAnchor_"/><em>Sites in State</em></td><td><a href="#130BaseTableAnchor_">Sites</a></td><td>Target Field Tool.fmp12</td><td>
 <ul>
 <li><a href="#Sites&infin;Sites in StateRelationshipAnchor_"><em>Sites&infin;Sites in State</em></a></li>
@@ -2194,13 +2347,13 @@
 <tr class="regularcharttext" vAlign="top">
 <td bgColor="#787878"><a name="1065090TableAnchor_"/><em>Sites</em></td><td><a href="#130BaseTableAnchor_">Sites</a></td><td>Target Field Tool.fmp12</td><td>
 <ul>
-<li><a href="#Sites=Asset TemplatesRelationshipAnchor_"><em>Sites=Asset Templates</em></a></li>
+<li><a href="#Sites&infin;Asset TemplatesRelationshipAnchor_"><em>Sites&infin;Asset Templates</em></a></li>
 <li><a href="#Sites=Asset RecordsRelationshipAnchor_"><em>Sites=Asset Records</em></a></li>
 <li><a href="#Sites&infin;Sites in StateRelationshipAnchor_"><em>Sites&infin;Sites in State</em></a></li>
 </ul>
 </td><td>
 <ul>
-<li><a href="#14ScriptAnchor_">New Asset Record</a></li>
+<li><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></li>
 <li><a href="#22ScriptAnchor_">Open Site</a></li>
 <li><a href="#26ScriptAnchor_">EXPORT FOR GIT</a></li>
 </ul>
@@ -2215,21 +2368,9 @@
 <li><a href="#12LayoutAnchor_">Site Table</a></li>
 <li><a href="#16LayoutAnchor_">Site Assets</a></li>
 <li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 <li><a href="#9LayoutAnchor_">Site Assets</a></li>
 </ul>
-</td>
-</tr>
-<tr class="regularcharttext" vAlign="top">
-<td bgColor="#787878"><a name="1065105TableAnchor_"/><em>Admin</em></td><td><a href="#136BaseTableAnchor_">Admin</a></td><td>Target Field Tool.fmp12</td><td>
-<ul></ul>
-</td><td>
-<ul></ul>
-</td><td>
-<ul></ul>
-</td><td>
-<ul></ul>
-</td><td>
-<ul></ul>
 </td>
 </tr>
 </table>
@@ -2237,7 +2378,7 @@
 <span class="partheading"><a name="valDetailsSectionAnchor_"/>Relationships: Details</span>
 </p>
 <p>
-<span class="partheading">Relationship: <a name="Sites=Asset TemplatesRelationshipAnchor_"/><em>Sites=Asset Templates</em></span>
+<span class="partheading">Relationship: <a name="Sites&infin;Asset TemplatesRelationshipAnchor_"/><em>Sites&infin;Asset Templates</em></span>
 </p>
 <table width="100%" border="1">
 <tbody>
@@ -2246,6 +2387,9 @@
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg">Field</td><td class="regularcharttext"><a href="#13017FieldAnchor_">TEMPLATE_KEY</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#13436FieldAnchor_">Site ID</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" align="right">and</td><td class="regularcharttext"><a href="#1301FieldAnchor_">Site ID</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#13436FieldAnchor_">Site ID</a></td>
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg">Source Table</td><td class="regularcharttext"><a href="#130BaseTableAnchor_">Sites</a></td><td class="regularcharttext"></td><td class="regularcharttext"><a href="#134BaseTableAnchor_">Assets</a></td>
@@ -2339,6 +2483,9 @@
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg" align="right">and</td><td class="regularcharttext"><a href="#1342FieldAnchor_">Asset Type</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#1342FieldAnchor_">Asset Type</a></td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg" align="right">and</td><td class="regularcharttext"><a href="#13442FieldAnchor_">TEMPLATE KEY</a></td><td class="regularcharttext" align="middle">=</td><td class="regularcharttext"><a href="#13436FieldAnchor_">Site ID</a></td>
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg">Source Table</td><td class="regularcharttext"><a href="#134BaseTableAnchor_">Assets</a></td><td class="regularcharttext"></td><td class="regularcharttext"><a href="#134BaseTableAnchor_">Assets</a></td>
@@ -2563,7 +2710,13 @@
 <td class="script_hier"><a name="16LayoutAnchor_toc"></a><a href="#16LayoutAnchor_">Site Assets</a></td>
 </tr>
 <tr>
+<td class="script_hier"><a name="25LayoutAnchor_toc"></a><a href="#25LayoutAnchor_">-</a></td>
+</tr>
+<tr>
 <td class="script_hier"><a name="17LayoutAnchor_toc"></a><a href="#17LayoutAnchor_">Asset Record Form</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="24LayoutAnchor_toc"></a><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></td>
 </tr>
 <tr>
 <td class="script_hier"><a name="18LayoutAnchor_toc"></a><a href="#18LayoutAnchor_">-</a></td>
@@ -2610,7 +2763,7 @@
 <td><a name="4LayoutAnchor_"/>Site Overview</td><td>Yes</td><td>Yes</td><td>
 <ul>
 <li><a href="#4LayoutObjectsAnchor_Regular Fields">1 Regular Fields</a></li>
-<li><a href="#4LayoutObjectsAnchor_Merge Fields">4 Merge Fields</a></li>
+<li><a href="#4LayoutObjectsAnchor_Merge Fields">6 Merge Fields</a></li>
 <li><a href="#4LayoutObjectsAnchor_Buttons">3 Buttons</a></li>
 <li><a href="#4LayoutObjectsAnchor_Web Viewer Controls">1 Web Viewer Controls</a></li>
 </ul>
@@ -2636,18 +2789,27 @@
 <tr class="regularcharttext" valign="top">
 <td><a name="16LayoutAnchor_"/>Site Assets</td><td>Yes</td><td>Yes</td><td>
 <ul>
-<li><a href="#16LayoutObjectsAnchor_Merge Fields">10 Merge Fields</a></li>
-<li><a href="#16LayoutObjectsAnchor_Buttons">7 Buttons</a></li>
-<li><a href="#16LayoutObjectsAnchor_Portals">3 Portals</a></li>
+<li><a href="#16LayoutObjectsAnchor_Merge Fields">13 Merge Fields</a></li>
+<li><a href="#16LayoutObjectsAnchor_Buttons">9 Buttons</a></li>
+<li><a href="#16LayoutObjectsAnchor_Portals">4 Portals</a></li>
 <li><a href="#16LayoutObjectsAnchor_Tab Controls">1 Tab Controls</a></li>
 </ul>
-</td><td><a href="#1065090TableAnchor_"><em>Sites</em></a></td><td>On</td><td>Off</td><td>On</td><td>Off</td><td></td><td>[File Default]</td><td>
+</td><td><a href="#1065090TableAnchor_"><em>Sites</em></a></td><td>On</td><td>Off</td><td>On</td><td>Off</td><td>
+<ul>
+<li><a href="#31ScriptAnchor_">Delete Refrigerated Case</a></li>
+</ul>
+</td><td>[File Default]</td><td>
 <ul>
 <b>OnLayoutSizeChange</b>
 <li>Script: <a href="#20ScriptAnchor_">Resize Window</a></li>
 <li>Modes: Browse</li>
 </ul>
 </td><td><a href="#03valThemesSectionAnchor_">03</a></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="25LayoutAnchor_"/>-</td><td>Yes</td><td>Yes</td><td>
+<ul></ul>
+</td><td><a href="#1065098TableAnchor_"><em>Asset Records</em></a></td><td>On</td><td>Off</td><td>On</td><td>On</td><td></td><td>[File Default]</td><td></td><td><a href="#01valThemesSectionAnchor_">01</a></td>
 </tr>
 <tr class="regularcharttext" valign="top">
 <td><a name="17LayoutAnchor_"/>Asset Record Form</td><td>Yes</td><td>Yes</td><td>
@@ -2660,11 +2822,29 @@
 </td><td><a href="#1065098TableAnchor_"><em>Asset Records</em></a></td><td>On</td><td>Off</td><td>On</td><td>Off</td><td>
 <ul>
 <li><a href="#13ScriptAnchor_">Open Asset Record</a></li>
-<li><a href="#14ScriptAnchor_">New Asset Record</a></li>
 </ul>
 </td><td>[File Default]</td><td>
 <ul>
 <b>OnLayoutSizeChange</b>
+<li>Script: <a href="#20ScriptAnchor_">Resize Window</a></li>
+<li>Modes: Browse</li>
+</ul>
+</td><td><a href="#03valThemesSectionAnchor_">03</a></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td><a name="24LayoutAnchor_"/>Refrigerated Cases Form</td><td>Yes</td><td>Yes</td><td>
+<ul>
+<li><a href="#24LayoutObjectsAnchor_Regular Fields">16 Regular Fields</a></li>
+<li><a href="#24LayoutObjectsAnchor_Merge Fields">1 Merge Fields</a></li>
+<li><a href="#24LayoutObjectsAnchor_Buttons">10 Buttons</a></li>
+</ul>
+</td><td><a href="#1065098TableAnchor_"><em>Asset Records</em></a></td><td>On</td><td>Off</td><td>On</td><td>Off</td><td>
+<ul>
+<li><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></li>
+</ul>
+</td><td>[File Default]</td><td>
+<ul>
+<b>OnLayoutEnter</b>
 <li>Script: <a href="#20ScriptAnchor_">Resize Window</a></li>
 <li>Modes: Browse</li>
 </ul>
@@ -2687,7 +2867,7 @@
 </td><td><a href="#1065090TableAnchor_"><em>Sites</em></a></td><td>On</td><td>Off</td><td>On</td><td>Off</td><td></td><td>[File Default]</td><td></td><td><a href="#03valThemesSectionAnchor_">03</a></td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td><a name="19LayoutAnchor_"/>_Target _ Brett Reorg.xlsx_ Lookups Joe</td><td>Yes</td><td>Yes</td><td>
+<td><a name="19LayoutAnchor_"/>_Target _ Brett Reorg.xlsx_ Lookups Joe</td><td>No</td><td>Yes</td><td>
 <ul>
 <li><a href="#19LayoutObjectsAnchor_Regular Fields">1 Regular Fields</a></li>
 </ul>
@@ -2696,7 +2876,7 @@
 <tr class="regularcharttext" valign="top">
 <td><a name="20LayoutAnchor_"/>Asset Templates Table</td><td>Yes</td><td>Yes</td><td>
 <ul>
-<li><a href="#20LayoutObjectsAnchor_Regular Fields">40 Regular Fields</a></li>
+<li><a href="#20LayoutObjectsAnchor_Regular Fields">41 Regular Fields</a></li>
 </ul>
 </td><td><a href="#1065099TableAnchor_"><em>Asset Templates</em></a></td><td>On</td><td>Off</td><td>On</td><td>Off</td><td></td><td>[File Default]</td><td></td><td><a href="#03valThemesSectionAnchor_">03</a></td>
 </tr>
@@ -2724,15 +2904,15 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="3Field60.00000004.0000000120.000000081.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="3Field50.00000004.0000000110.000000081.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#3LayoutAnchor_">Site List</a></li>
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 60 pt</li>
+<li>Top: 50 pt</li>
 <li>Left: 4 pt</li>
-<li>Bottom: 120 pt</li>
+<li>Bottom: 110 pt</li>
 <li>Right: 81 pt</li>
 </ul>
 <ul>
@@ -2760,7 +2940,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="3Field7.0000000266.000000051.0000000370.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="3Field3.0000000264.000000047.0000000371.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#3LayoutAnchor_">Site List</a></li>
 </ul>
@@ -2771,10 +2951,10 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 7 pt</li>
-<li>Left: 266 pt</li>
-<li>Bottom: 51 pt</li>
-<li>Right: 370 pt</li>
+<li>Top: 3 pt</li>
+<li>Left: 264 pt</li>
+<li>Bottom: 47 pt</li>
+<li>Right: 371 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Right, Top</li>
@@ -2802,7 +2982,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="3Text60.0000000274.0000000120.0000000368.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="3Text50.0000000274.0000000110.0000000368.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;AssetCount&gt;&gt; assets</em>
@@ -2818,9 +2998,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 60 pt</li>
+<li>Top: 50 pt</li>
 <li>Left: 274 pt</li>
-<li>Bottom: 120 pt</li>
+<li>Bottom: 110 pt</li>
 <li>Right: 368 pt</li>
 </ul>
 <ul>
@@ -2841,7 +3021,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="3Text60.000000082.0000000115.0000000312.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="3Text56.000000082.000000090.0000000312.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;City&gt;&gt;, &lt;&lt;State&gt;&gt;</em>
@@ -2853,9 +3033,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 60 pt</li>
+<li>Top: 56 pt</li>
 <li>Left: 82 pt</li>
-<li>Bottom: 115 pt</li>
+<li>Bottom: 90 pt</li>
 <li>Right: 312 pt</li>
 </ul>
 <ul>
@@ -2877,7 +3057,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="3Text95.000000082.0000000116.0000000370.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="3Text80.000000082.0000000100.0000000370.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Address&gt;&gt;</em>
@@ -2889,9 +3069,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 95 pt</li>
+<li>Top: 80 pt</li>
 <li>Left: 82 pt</li>
-<li>Bottom: 116 pt</li>
+<li>Bottom: 100 pt</li>
 <li>Right: 370 pt</li>
 </ul>
 <ul>
@@ -2915,7 +3095,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="3Button64.00000004.0000000115.0000000411.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="3Button54.00000004.0000000105.0000000411.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: &gt;</li>
 </ul>
@@ -2925,9 +3105,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 64 pt</li>
+<li>Top: 54 pt</li>
 <li>Left: 4 pt</li>
-<li>Bottom: 115 pt</li>
+<li>Bottom: 105 pt</li>
 <li>Right: 411 pt</li>
 </ul>
 <ul>
@@ -2968,9 +3148,9 @@
 </ul>
 </td><td colspan="3">
 <ul>
-<li>Top: 60 pt</li>
+<li>Top: 50 pt</li>
 <li>Left: 274 pt</li>
-<li>Bottom: 120 pt</li>
+<li>Bottom: 110 pt</li>
 <li>Right: 368 pt</li>
 </ul>
 <ul>
@@ -3034,7 +3214,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="4Text12.000000047.000000033.0000000331.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="4Text15.000000045.000000036.0000000329.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Site ID&gt;&gt; - &lt;&lt;City&gt;&gt;, &lt;&lt;State&gt;&gt;</em>
@@ -3046,10 +3226,10 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 12 pt</li>
-<li>Left: 47 pt</li>
-<li>Bottom: 33 pt</li>
-<li>Right: 331 pt</li>
+<li>Top: 15 pt</li>
+<li>Left: 45 pt</li>
+<li>Bottom: 36 pt</li>
+<li>Right: 329 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left and Right, Top</li>
@@ -3071,7 +3251,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="4Text54.00000008.000000075.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="4Text64.00000008.000000085.0000000366.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>Store # &lt;&lt;Site ID&gt;&gt;</em>
@@ -3083,13 +3263,13 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 54 pt</li>
+<li>Top: 64 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 75 pt</li>
+<li>Bottom: 85 pt</li>
 <li>Right: 366 pt</li>
 </ul>
 <ul>
-<li>Anchoring: Left, Top</li>
+<li>Anchoring: Left, Center</li>
 </ul>
 </td><td colspan="2">
 <ul>
@@ -3106,10 +3286,10 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="4Text85.00000008.0000000106.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="4Text151.00000008.0000000172.0000000366.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
-<em>&lt;&lt;Address&gt;&gt;</em>
+<em>&lt;&lt;Address&gt;&gt; &lt;&lt;Zip Code&gt;&gt;</em>
 </li>
 </ul>
 <ul>
@@ -3118,9 +3298,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 85 pt</li>
+<li>Top: 151 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 106 pt</li>
+<li>Bottom: 172 pt</li>
 <li>Right: 366 pt</li>
 </ul>
 <ul>
@@ -3129,6 +3309,7 @@
 </td><td colspan="2">
 <ul>
 <li><a href="#1303FieldAnchor_"><em>Sites</em>::Address</a></li>
+<li><a href="#1306FieldAnchor_"><em>Sites</em>::Zip Code</a></li>
 </ul>
 </td><td colspan="2">Yes</td>
 </tr>
@@ -3141,7 +3322,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="4Text112.00000008.0000000133.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="4Text110.00000008.0000000131.0000000366.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>Assets: &lt;&lt;AssetCount&gt;&gt;</em>
@@ -3153,9 +3334,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 112 pt</li>
+<li>Top: 110 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 133 pt</li>
+<li>Bottom: 131 pt</li>
 <li>Right: 366 pt</li>
 </ul>
 <ul>
@@ -3164,6 +3345,76 @@
 </td><td colspan="2">
 <ul>
 <li><a href="#13016FieldAnchor_"><em>Sites</em>::AssetCount</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Text88.00000008.0000000109.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>Store type: &lt;&lt;Current Prototype&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Site Overview</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 88 pt</li>
+<li>Left: 8 pt</li>
+<li>Bottom: 109 pt</li>
+<li>Right: 366 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#13010FieldAnchor_"><em>Sites</em>::Current Prototype</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="4Text172.00000008.0000000193.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>Email: &lt;&lt;PMT E_Mail&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#4LayoutAnchor_">Site Overview</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 172 pt</li>
+<li>Left: 8 pt</li>
+<li>Bottom: 193 pt</li>
+<li>Right: 366 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#13011FieldAnchor_"><em>Sites</em>::PMT E_Mail</a></li>
 </ul>
 </td><td colspan="2">Yes</td>
 </tr>
@@ -3179,9 +3430,9 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="4Button0.00000000.000000044.000000047.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="4Button3.00000000.000000047.000000047.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
-<li>Text: &lt;</li>
+<li>Text: </li>
 </ul>
 <ul>
 <b>Layout Name:</b>
@@ -3189,9 +3440,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 0 pt</li>
+<li>Top: 3 pt</li>
 <li>Left: 0 pt</li>
-<li>Bottom: 44 pt</li>
+<li>Bottom: 47 pt</li>
 <li>Right: 47 pt</li>
 </ul>
 <ul>
@@ -3214,9 +3465,9 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="4Button148.00000008.0000000192.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="4Button206.00000008.0000000250.0000000366.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
-<li>Text: Assets &gt;</li>
+<li>Text: Assets (&lt;&lt;AssetCount&gt;&gt;)</li>
 </ul>
 <ul>
 <b>Layout Name:</b>
@@ -3224,9 +3475,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 148 pt</li>
+<li>Top: 206 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 192 pt</li>
+<li>Bottom: 250 pt</li>
 <li>Right: 366 pt</li>
 </ul>
 <ul>
@@ -3249,7 +3500,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="4Button200.00000008.0000000244.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="4Button258.00000008.0000000302.0000000366.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: &lt;&lt;Phone Number&gt;&gt;</li>
 </ul>
@@ -3259,15 +3510,15 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 200 pt</li>
+<li>Top: 258 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 244 pt</li>
+<li>Bottom: 302 pt</li>
 <li>Right: 366 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
 </ul>
-</td><td colspan="3">Dial Phone [ Phone Number: Sites::Phone Number ]&#13;[ No dialog ]<p>
+</td><td colspan="3">Dial Phone [ Phone Number: Sites::Phone Number ]<p>
 <b>Fields:</b>
 </p>
 <ul>
@@ -3287,7 +3538,7 @@
 <td colspan="2" width="40%">Web Viewer Control Properties</td><td width="20%" colspan="2">Coordinates</td><td width="40%" colspan="2">Web Address</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="4ExternalObject374.00000008.0000000783.0000000366.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="4ExternalObject310.00000008.0000000719.0000000366.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#4LayoutAnchor_">Site Overview</a></li>
 </ul>
@@ -3300,9 +3551,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 374 pt</li>
+<li>Top: 310 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 783 pt</li>
+<li>Bottom: 719 pt</li>
 <li>Right: 366 pt</li>
 </ul>
 <ul>
@@ -3760,7 +4011,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text226.0000000138.0000000247.0000000371.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text225.0000000138.0000000246.0000000371.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Asset Type&gt;&gt;</em>
@@ -3772,9 +4023,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 226 pt</li>
+<li>Top: 225 pt</li>
 <li>Left: 138 pt</li>
-<li>Bottom: 247 pt</li>
+<li>Bottom: 246 pt</li>
 <li>Right: 371 pt</li>
 </ul>
 <ul>
@@ -3795,7 +4046,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text226.000000010.0000000247.0000000251.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text225.000000010.0000000246.0000000251.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Asset Name&gt;&gt;</em>
@@ -3807,9 +4058,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 226 pt</li>
+<li>Top: 225 pt</li>
 <li>Left: 10 pt</li>
-<li>Bottom: 247 pt</li>
+<li>Bottom: 246 pt</li>
 <li>Right: 251 pt</li>
 </ul>
 <ul>
@@ -3830,7 +4081,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text243.000000010.0000000264.0000000251.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text242.000000010.0000000263.0000000251.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Location&gt;&gt;</em>
@@ -3842,9 +4093,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 243 pt</li>
+<li>Top: 242 pt</li>
 <li>Left: 10 pt</li>
-<li>Bottom: 264 pt</li>
+<li>Bottom: 263 pt</li>
 <li>Right: 251 pt</li>
 </ul>
 <ul>
@@ -3865,7 +4116,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text224.0000000138.0000000245.0000000371.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text223.0000000138.0000000244.0000000371.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Asset Type&gt;&gt;</em>
@@ -3877,9 +4128,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 224 pt</li>
+<li>Top: 223 pt</li>
 <li>Left: 138 pt</li>
-<li>Bottom: 245 pt</li>
+<li>Bottom: 244 pt</li>
 <li>Right: 371 pt</li>
 </ul>
 <ul>
@@ -3900,7 +4151,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text224.000000010.0000000245.0000000251.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text223.000000010.0000000244.0000000251.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Asset Name&gt;&gt;</em>
@@ -3912,9 +4163,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 224 pt</li>
+<li>Top: 223 pt</li>
 <li>Left: 10 pt</li>
-<li>Bottom: 245 pt</li>
+<li>Bottom: 244 pt</li>
 <li>Right: 251 pt</li>
 </ul>
 <ul>
@@ -3935,7 +4186,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text241.000000010.0000000262.0000000251.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text240.000000010.0000000261.0000000251.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Location&gt;&gt;</em>
@@ -3947,9 +4198,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 241 pt</li>
+<li>Top: 240 pt</li>
 <li>Left: 10 pt</li>
-<li>Bottom: 262 pt</li>
+<li>Bottom: 261 pt</li>
 <li>Right: 251 pt</li>
 </ul>
 <ul>
@@ -3970,7 +4221,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text228.00000008.0000000249.0000000249.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text227.00000008.0000000248.0000000249.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Asset Name&gt;&gt;</em>
@@ -3982,9 +4233,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 228 pt</li>
+<li>Top: 227 pt</li>
 <li>Left: 8 pt</li>
-<li>Bottom: 249 pt</li>
+<li>Bottom: 248 pt</li>
 <li>Right: 249 pt</li>
 </ul>
 <ul>
@@ -4005,7 +4256,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text228.0000000136.0000000249.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text227.0000000136.0000000248.0000000369.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Asset Type&gt;&gt;</em>
@@ -4017,9 +4268,9 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 228 pt</li>
+<li>Top: 227 pt</li>
 <li>Left: 136 pt</li>
-<li>Bottom: 249 pt</li>
+<li>Bottom: 248 pt</li>
 <li>Right: 369 pt</li>
 </ul>
 <ul>
@@ -4040,7 +4291,7 @@
 <td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Text247.000000010.0000000268.0000000251.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Text246.000000010.0000000267.0000000251.0000000LayoutObjectAnchor_"/><ul>
 <b>Text:</b>
 <li>
 <em>&lt;&lt;Asset Records::Location&gt;&gt;</em>
@@ -4052,9 +4303,114 @@
 </ul>
 </td><td colspan="2">
 <ul>
-<li>Top: 247 pt</li>
+<li>Top: 246 pt</li>
 <li>Left: 10 pt</li>
-<li>Bottom: 268 pt</li>
+<li>Bottom: 267 pt</li>
+<li>Right: 251 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1344FieldAnchor_"><em>Asset Records</em>::Location</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Text227.00000008.0000000248.0000000249.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Asset Records::Asset Name&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 227 pt</li>
+<li>Left: 8 pt</li>
+<li>Bottom: 248 pt</li>
+<li>Right: 249 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1343FieldAnchor_"><em>Asset Records</em>::Asset Name</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Text227.0000000136.0000000248.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Asset Records::Asset Type&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 227 pt</li>
+<li>Left: 136 pt</li>
+<li>Bottom: 248 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1342FieldAnchor_"><em>Asset Records</em>::Asset Type</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Text246.000000010.0000000267.0000000251.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Asset Records::Location&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 246 pt</li>
+<li>Left: 10 pt</li>
+<li>Bottom: 267 pt</li>
 <li>Right: 251 pt</li>
 </ul>
 <ul>
@@ -4150,7 +4506,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="Button224.00000003.0000000268.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="Button223.00000003.0000000267.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: </li>
 </ul>
@@ -4160,9 +4516,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 224 pt</li>
+<li>Top: 223 pt</li>
 <li>Left: 3 pt</li>
-<li>Bottom: 268 pt</li>
+<li>Bottom: 267 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
@@ -4185,7 +4541,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="Button166.0000000110.0000000210.0000000213.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="Button165.0000000110.0000000209.0000000213.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: New</li>
 </ul>
@@ -4195,9 +4551,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 166 pt</li>
+<li>Top: 165 pt</li>
 <li>Left: 110 pt</li>
-<li>Bottom: 210 pt</li>
+<li>Bottom: 209 pt</li>
 <li>Right: 213 pt</li>
 </ul>
 <ul>
@@ -4220,7 +4576,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="Button168.0000000265.0000000212.0000000368.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="Button167.0000000265.0000000211.0000000368.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: New</li>
 </ul>
@@ -4230,9 +4586,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 168 pt</li>
+<li>Top: 167 pt</li>
 <li>Left: 265 pt</li>
-<li>Bottom: 212 pt</li>
+<li>Bottom: 211 pt</li>
 <li>Right: 368 pt</li>
 </ul>
 <ul>
@@ -4255,7 +4611,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="Button219.00000002.0000000269.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="Button218.00000002.0000000268.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: </li>
 </ul>
@@ -4265,9 +4621,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 219 pt</li>
+<li>Top: 218 pt</li>
 <li>Left: 2 pt</li>
-<li>Bottom: 269 pt</li>
+<li>Bottom: 268 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
@@ -4290,7 +4646,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="Button168.0000000265.0000000212.0000000368.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="Button167.0000000265.0000000211.0000000368.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: New</li>
 </ul>
@@ -4300,9 +4656,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 168 pt</li>
+<li>Top: 167 pt</li>
 <li>Left: 265 pt</li>
-<li>Bottom: 212 pt</li>
+<li>Bottom: 211 pt</li>
 <li>Right: 368 pt</li>
 </ul>
 <ul>
@@ -4325,7 +4681,7 @@
 <td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="3"><a name="Button224.00000003.0000000268.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="3"><a name="Button223.00000003.0000000267.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Type:</b>
 <li>Text: </li>
 </ul>
@@ -4335,9 +4691,9 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 224 pt</li>
+<li>Top: 223 pt</li>
 <li>Left: 3 pt</li>
-<li>Bottom: 268 pt</li>
+<li>Bottom: 267 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
@@ -4354,6 +4710,76 @@
 </tbody>
 </table>
 <br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="Button223.00000003.0000000267.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 223 pt</li>
+<li>Left: 3 pt</li>
+<li>Bottom: 267 pt</li>
+<li>Right: 375 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Go to Related Record [ From table: &ldquo;Asset Records&rdquo;; Using layout: &ldquo;Refrigerated Cases Form&rdquo; (Asset Records) ]<p>
+<b>Layouts:</b>
+</p>
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="Button167.0000000265.0000000211.0000000368.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: New</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 167 pt</li>
+<li>Left: 265 pt</li>
+<li>Bottom: 211 pt</li>
+<li>Right: 368 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Right, Top</li>
+</ul>
+</td><td colspan="3">Perform Script [ &ldquo;New Refrigerated Case Record&rdquo;; Parameter: "Refrigerated Cases" ]<p>
+<b>Scripts:</b>
+</p>
+<ul>
+<li><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
 <p>
 <span class="partheading"><a name="16LayoutObjectsAnchor_Portals"/>Portals</span>
 </p>
@@ -4363,7 +4789,7 @@
 <td colspan="2">Portal Properties</td><td colspan="1" width="15%">Coordinates</td><td colspan="1" width="10%">Fields</td><td colspan="2">Options</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Portal219.00000000.0000000578.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Portal218.00000000.0000000577.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Table:</b>
 <li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
 </ul>
@@ -4373,18 +4799,18 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 219 pt</li>
+<li>Top: 218 pt</li>
 <li>Left: 0 pt</li>
-<li>Bottom: 578 pt</li>
+<li>Bottom: 577 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left and Right, Top</li>
 </ul>
 </td><td colspan="1">Merge Field Objects<ul>
-<li><a href="#Text226.0000000138.0000000247.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (226, 138, 247, 371)</li>
-<li><a href="#Text226.000000010.0000000247.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (226, 10, 247, 251)</li>
-<li><a href="#Text243.000000010.0000000264.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (243, 10, 264, 251)</li>
+<li><a href="#Text225.0000000138.0000000246.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (225, 138, 246, 371)</li>
+<li><a href="#Text225.000000010.0000000246.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (225, 10, 246, 251)</li>
+<li><a href="#Text242.000000010.0000000263.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (242, 10, 263, 251)</li>
 </ul>
 </td><td colspan="2">
 <ul>
@@ -4406,7 +4832,7 @@
 <td colspan="2">Portal Properties</td><td colspan="1" width="15%">Coordinates</td><td colspan="1" width="10%">Fields</td><td colspan="2">Options</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Portal217.00000000.0000000576.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Portal216.00000000.0000000575.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Table:</b>
 <li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
 </ul>
@@ -4416,18 +4842,18 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 217 pt</li>
+<li>Top: 216 pt</li>
 <li>Left: 0 pt</li>
-<li>Bottom: 576 pt</li>
+<li>Bottom: 575 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left and Right, Top</li>
 </ul>
 </td><td colspan="1">Merge Field Objects<ul>
-<li><a href="#Text224.0000000138.0000000245.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (224, 138, 245, 371)</li>
-<li><a href="#Text224.000000010.0000000245.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (224, 10, 245, 251)</li>
-<li><a href="#Text241.000000010.0000000262.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (241, 10, 262, 251)</li>
+<li><a href="#Text223.0000000138.0000000244.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (223, 138, 244, 371)</li>
+<li><a href="#Text223.000000010.0000000244.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (223, 10, 244, 251)</li>
+<li><a href="#Text240.000000010.0000000261.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (240, 10, 261, 251)</li>
 </ul>
 </td><td colspan="2">
 <ul>
@@ -4449,7 +4875,7 @@
 <td colspan="2">Portal Properties</td><td colspan="1" width="15%">Coordinates</td><td colspan="1" width="10%">Fields</td><td colspan="2">Options</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="Portal221.00000000.0000000580.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="Portal220.00000000.0000000579.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Table:</b>
 <li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
 </ul>
@@ -4459,23 +4885,66 @@
 </ul>
 </td><td colspan="1">
 <ul>
-<li>Top: 221 pt</li>
+<li>Top: 220 pt</li>
 <li>Left: 0 pt</li>
-<li>Bottom: 580 pt</li>
+<li>Bottom: 579 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left and Right, Top</li>
 </ul>
 </td><td colspan="1">Merge Field Objects<ul>
-<li><a href="#Text228.00000008.0000000249.0000000249.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (228, 8, 249, 249)</li>
-<li><a href="#Text228.0000000136.0000000249.0000000369.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (228, 136, 249, 369)</li>
-<li><a href="#Text247.000000010.0000000268.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (247, 10, 268, 251)</li>
+<li><a href="#Text227.00000008.0000000248.0000000249.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (227, 8, 248, 249)</li>
+<li><a href="#Text227.0000000136.0000000248.0000000369.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (227, 136, 248, 369)</li>
+<li><a href="#Text246.000000010.0000000267.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (246, 10, 267, 251)</li>
 </ul>
 </td><td colspan="2">
 <ul>
 <li>Sort records: Off</li>
 <li>Filter calculation: <br><a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a> = "Self-Contained"</li>
+<br>
+<li>Initial Row: 1</li>
+<li>Number of Rows: 7</li>
+<li>Show vertical scroll bar</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table border="1" width="100%">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Portal Properties</td><td colspan="1" width="15%">Coordinates</td><td colspan="1" width="10%">Fields</td><td colspan="2">Options</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="Portal220.00000000.0000000579.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<b>Table:</b>
+<li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 220 pt</li>
+<li>Left: 0 pt</li>
+<li>Bottom: 579 pt</li>
+<li>Right: 375 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left and Right, Top</li>
+</ul>
+</td><td colspan="1">Merge Field Objects<ul>
+<li><a href="#Text227.00000008.0000000248.0000000249.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (227, 8, 248, 249)</li>
+<li><a href="#Text227.0000000136.0000000248.0000000369.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (227, 136, 248, 369)</li>
+<li><a href="#Text246.000000010.0000000267.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (246, 10, 267, 251)</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Sort records: Off</li>
+<li>Filter calculation: <br><a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a> = "Refrigerated Cases"</li>
 <br>
 <li>Initial Row: 1</li>
 <li>Number of Rows: 7</li>
@@ -4495,7 +4964,7 @@
 <td colspan="4">Tab Control Properties</td><td colspan="4">Coordinates</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="4"><a name="16TabControl114.00000000.0000000580.0000000375.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="4"><a name="16TabControl113.00000000.0000000579.0000000375.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#16LayoutAnchor_">Site Assets</a></li>
 </ul>
@@ -4513,14 +4982,14 @@
 </ul>
 <ul>
 <b>OnObjectEnter</b>
-<li>Script: <a href="#23ScriptAnchor_">New Script</a></li>
+<li>Script: <a href="#23ScriptAnchor_">Sticky Tabs - Save</a></li>
 <li>Modes: Browse</li>
 </ul>
 </td><td colspan="4">
 <ul>
-<li>Top: 114 pt</li>
+<li>Top: 113 pt</li>
 <li>Left: 0 pt</li>
-<li>Bottom: 580 pt</li>
+<li>Bottom: 579 pt</li>
 <li>Right: 375 pt</li>
 </ul>
 <ul>
@@ -4551,15 +5020,15 @@
 </td><td>
 <ul></ul>
 </td><td>Merge Field Objects<ul>
-<li><a href="#Text226.0000000138.0000000247.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (226, 138, 247, 371)</li>
-<li><a href="#Text226.000000010.0000000247.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (226, 10, 247, 251)</li>
-<li><a href="#Text243.000000010.0000000264.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (243, 10, 264, 251)</li>
+<li><a href="#Text225.0000000138.0000000246.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (225, 138, 246, 371)</li>
+<li><a href="#Text225.000000010.0000000246.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (225, 10, 246, 251)</li>
+<li><a href="#Text242.000000010.0000000263.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (242, 10, 263, 251)</li>
 </ul>
 </td><td>
-<li><a href="#Button166.0000000110.0000000210.0000000213.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;Site Assets NEW&rdquo;; Parameter: "HVAC" ]</a> at (166, 110, 210, 213)</li>
+<li><a href="#Button165.0000000110.0000000209.0000000213.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;Site Assets NEW&rdquo;; Parameter: "HVAC" ]</a> at (165, 110, 209, 213)</li>
 </td><td>
 <ul>
-<li><a href="#Portal219.00000000.0000000578.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (219, 0, 578, 375)</li>
+<li><a href="#Portal218.00000000.0000000577.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (218, 0, 577, 375)</li>
 </ul>
 </td><td></td><td></td>
 </tr>
@@ -4570,7 +5039,7 @@
 <td>
 <ul>
 <b>Tab 1: </b>
-<li>"Refrigeration (" &amp; <strong>ValueCount</strong>( <strong>FilterValues</strong>( <strong>List</strong>( <a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a>); "Refrigeration")) &amp; ")"</li>
+<li>"Refrig (" &amp; <strong>ValueCount</strong>( <strong>FilterValues</strong>( <strong>List</strong>( <a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a>); "Refrigeration")) &amp; ")"</li>
 </ul>
 <ul>
 <b>Object Name:</b>
@@ -4581,15 +5050,15 @@
 </td><td>
 <ul></ul>
 </td><td>Merge Field Objects<ul>
-<li><a href="#Text224.0000000138.0000000245.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (224, 138, 245, 371)</li>
-<li><a href="#Text224.000000010.0000000245.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (224, 10, 245, 251)</li>
-<li><a href="#Text241.000000010.0000000262.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (241, 10, 262, 251)</li>
+<li><a href="#Text223.0000000138.0000000244.0000000371.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (223, 138, 244, 371)</li>
+<li><a href="#Text223.000000010.0000000244.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (223, 10, 244, 251)</li>
+<li><a href="#Text240.000000010.0000000261.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (240, 10, 261, 251)</li>
 </ul>
 </td><td>
-<li><a href="#Button168.0000000265.0000000212.0000000368.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;Site Assets NEW&rdquo;; Parameter: "Refrigeration" ]</a> at (168, 265, 212, 368)</li>
+<li><a href="#Button167.0000000265.0000000211.0000000368.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;Site Assets NEW&rdquo;; Parameter: "Refrigeration" ]</a> at (167, 265, 211, 368)</li>
 </td><td>
 <ul>
-<li><a href="#Portal217.00000000.0000000576.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (217, 0, 576, 375)</li>
+<li><a href="#Portal216.00000000.0000000575.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (216, 0, 575, 375)</li>
 </ul>
 </td><td></td><td></td>
 </tr>
@@ -4600,7 +5069,7 @@
 <td>
 <ul>
 <b>Tab 2: </b>
-<li>"Self-Contained (" &amp; <strong>ValueCount</strong>( <strong>FilterValues</strong>( <strong>List</strong>( <a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a>); "Self-Contained")) &amp; ")"</li>
+<li>"Self-Cont (" &amp; <strong>ValueCount</strong>( <strong>FilterValues</strong>( <strong>List</strong>( <a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a>); "Self-Contained")) &amp; ")"</li>
 </ul>
 <ul>
 <b>Object Name:</b>
@@ -4611,15 +5080,41 @@
 </td><td>
 <ul></ul>
 </td><td>Merge Field Objects<ul>
-<li><a href="#Text228.00000008.0000000249.0000000249.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (228, 8, 249, 249)</li>
-<li><a href="#Text228.0000000136.0000000249.0000000369.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (228, 136, 249, 369)</li>
-<li><a href="#Text247.000000010.0000000268.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (247, 10, 268, 251)</li>
+<li><a href="#Text227.00000008.0000000248.0000000249.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (227, 8, 248, 249)</li>
+<li><a href="#Text227.0000000136.0000000248.0000000369.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (227, 136, 248, 369)</li>
+<li><a href="#Text246.000000010.0000000267.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (246, 10, 267, 251)</li>
 </ul>
 </td><td>
-<li><a href="#Button168.0000000265.0000000212.0000000368.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;Site Assets NEW&rdquo;; Parameter: "Self" ]</a> at (168, 265, 212, 368)</li>
+<li><a href="#Button167.0000000265.0000000211.0000000368.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;Site Assets NEW&rdquo;; Parameter: "Self" ]</a> at (167, 265, 211, 368)</li>
 </td><td>
 <ul>
-<li><a href="#Portal221.00000000.0000000580.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (221, 0, 580, 375)</li>
+<li><a href="#Portal220.00000000.0000000579.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (220, 0, 579, 375)</li>
+</ul>
+</td><td></td><td></td>
+</tr>
+<tr>
+<td></td><td colspan="7" style="padding:0px;"></td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td>
+<ul>
+<b>Tab 3: </b>
+<li>"Refrig Cases (" &amp; <strong>ValueCount</strong>( <strong>FilterValues</strong>( <strong>List</strong>( <a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a>); "Refrigerated Cases")) &amp; ")"</li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>Merge Field Objects<ul>
+<li><a href="#Text227.00000008.0000000248.0000000249.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Name&gt;&gt;</a> at (227, 8, 248, 249)</li>
+<li><a href="#Text227.0000000136.0000000248.0000000369.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Asset Type&gt;&gt;</a> at (227, 136, 248, 369)</li>
+<li><a href="#Text246.000000010.0000000267.0000000251.0000000LayoutObjectAnchor_">&lt;&lt;Asset Records::Location&gt;&gt;</a> at (246, 10, 267, 251)</li>
+</ul>
+</td><td>
+<li><a href="#Button167.0000000265.0000000211.0000000368.0000000LayoutObjectAnchor_">Text: New--&gt;Perform Script [ &ldquo;New Refrigerated Case Record&rdquo;; Parameter: "Refrigerated Cases" ]</a> at (167, 265, 211, 368)</li>
+</td><td>
+<ul>
+<li><a href="#Portal220.00000000.0000000579.0000000375.0000000LayoutObjectAnchor_">Portal Object</a> at (220, 0, 579, 375)</li>
 </ul>
 </td><td></td><td></td>
 </tr>
@@ -4629,6 +5124,9 @@
 </tbody>
 </table>
 <br>
+<p>
+<span class="partheading">Layout Objects: <a href="#25LayoutAnchor_">-</a></span>
+</p>
 <p>
 <span class="partheading">Layout Objects: <a href="#17LayoutAnchor_">Asset Record Form</a></span>
 </p>
@@ -9405,6 +9903,995 @@
 </table>
 <br>
 <p>
+<span class="partheading">Layout Objects: <a href="#24LayoutAnchor_">Refrigerated Cases Form</a></span>
+</p>
+<p>
+<span class="partheading"><a name="24LayoutObjectsAnchor_Regular Fields"/>Regular Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1348FieldAnchor_"><em>Asset Records</em>::Serial</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field181.0000000130.0000000200.0000000245.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 181 pt</li>
+<li>Left: 130 pt</li>
+<li>Bottom: 200 pt</li>
+<li>Right: 245 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1343FieldAnchor_"><em>Asset Records</em>::Asset Name</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field181.00000006.0000000200.0000000121.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 181 pt</li>
+<li>Left: 6 pt</li>
+<li>Bottom: 200 pt</li>
+<li>Right: 121 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1344FieldAnchor_"><em>Asset Records</em>::Location</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field47.00000006.000000077.0000000189.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+<ul>
+<b>OnObjectModify</b>
+<li>Script: <a href="#29ScriptAnchor_">Save Last Location</a></li>
+<li>Modes: Browse</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 47 pt</li>
+<li>Left: 6 pt</li>
+<li>Bottom: 77 pt</li>
+<li>Right: 189 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Pop-up Menu</li>
+<li>Display values from: <a href="#19VLAnchor_">LOCATIONS - Hard Code</a></li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1345FieldAnchor_"><em>Asset Records</em>::Area ServedServiced</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field47.0000000189.000000077.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 47 pt</li>
+<li>Left: 189 pt</li>
+<li>Bottom: 77 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Pop-up Menu</li>
+<li>Display values from: <a href="#20VLAnchor_">AREA SERVED Hard code</a></li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13437FieldAnchor_"><em>Asset Records</em>::Photo1</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field96.00000006.0000000182.0000000121.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 96 pt</li>
+<li>Left: 6 pt</li>
+<li>Bottom: 182 pt</li>
+<li>Right: 121 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13438FieldAnchor_"><em>Asset Records</em>::Photo2</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field96.0000000130.0000000182.0000000245.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 96 pt</li>
+<li>Left: 130 pt</li>
+<li>Bottom: 182 pt</li>
+<li>Right: 245 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13439FieldAnchor_"><em>Asset Records</em>::Photo3</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field96.0000000254.0000000182.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 96 pt</li>
+<li>Left: 254 pt</li>
+<li>Bottom: 182 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13443FieldAnchor_"><em>Asset Records</em>::Photo4</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field212.00000006.0000000298.0000000121.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 212 pt</li>
+<li>Left: 6 pt</li>
+<li>Bottom: 298 pt</li>
+<li>Right: 121 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13444FieldAnchor_"><em>Asset Records</em>::Photo5</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field212.0000000130.0000000298.0000000245.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 212 pt</li>
+<li>Left: 130 pt</li>
+<li>Bottom: 298 pt</li>
+<li>Right: 245 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13445FieldAnchor_"><em>Asset Records</em>::Photo6</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field212.0000000255.0000000298.0000000370.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 212 pt</li>
+<li>Left: 255 pt</li>
+<li>Bottom: 298 pt</li>
+<li>Right: 370 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13446FieldAnchor_"><em>Asset Records</em>::Target Tag</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field181.0000000254.0000000200.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 181 pt</li>
+<li>Left: 254 pt</li>
+<li>Bottom: 200 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13410FieldAnchor_"><em>Asset Records</em>::Unit of Measure</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field473.0000000276.0000000536.0000000378.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 473 pt</li>
+<li>Left: 276 pt</li>
+<li>Bottom: 536 pt</li>
+<li>Right: 378 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Radio Button Set</li>
+<li>Display values from: <a href="#22VLAnchor_">New Value List</a></li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#1349FieldAnchor_"><em>Asset Records</em>::Asset SizeCapacity</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field380.0000000284.0000000424.0000000339.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 380 pt</li>
+<li>Left: 284 pt</li>
+<li>Bottom: 424 pt</li>
+<li>Right: 339 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13430FieldAnchor_"><em>Asset Records</em>::Overall Condition</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field333.000000014.0000000363.0000000267.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 333 pt</li>
+<li>Left: 14 pt</li>
+<li>Bottom: 363 pt</li>
+<li>Right: 267 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Radio Button Set</li>
+<li>Display values from: <a href="#23VLAnchor_">Good/Fair/Poor</a></li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13423FieldAnchor_"><em>Asset Records</em>::Lighting Type</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field406.000000014.0000000436.0000000267.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 406 pt</li>
+<li>Left: 14 pt</li>
+<li>Bottom: 436 pt</li>
+<li>Right: 267 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Radio Button Set</li>
+<li>Display values from: <a href="#24VLAnchor_">Lighting Type - alt</a></li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13426FieldAnchor_"><em>Asset Records</em>::Door Lighting Manufacturer</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Field478.000000014.0000000522.0000000245.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 478 pt</li>
+<li>Left: 14 pt</li>
+<li>Bottom: 522 pt</li>
+<li>Right: 245 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Drop-down List</li>
+<li>Display values from: <a href="#25VLAnchor_">LIGHTING MANUFACTURER</a></li>
+<li>Include arrow to show and hide list</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="24LayoutObjectsAnchor_Merge Fields"/>Merge Fields</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="2">Field Properties</td><td colspan="2">Coordinates</td><td colspan="2" width="27%">Fields</td><td colspan="2" width="10%">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="24Text6.000000045.000000030.0000000457.0000000LayoutObjectAnchor_"/><ul>
+<b>Text:</b>
+<li>
+<em>&lt;&lt;Sites::Site ID&gt;&gt; - &lt;&lt;Sites::City&gt;&gt;, &lt;&lt;Sites::State&gt;&gt;</em>
+</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li>Top: 6 pt</li>
+<li>Left: 45 pt</li>
+<li>Bottom: 30 pt</li>
+<li>Right: 457 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="2">
+<ul>
+<li><a href="#1301FieldAnchor_"><em>Sites</em>::Site ID</a></li>
+<li><a href="#1304FieldAnchor_"><em>Sites</em>::City</a></li>
+<li><a href="#1305FieldAnchor_"><em>Sites</em>::State</a></li>
+</ul>
+</td><td colspan="2">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
+<span class="partheading"><a name="24LayoutObjectsAnchor_Buttons"/>Buttons</span>
+</p>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button144.000000081.0000000182.0000000121.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 144 pt</li>
+<li>Left: 81 pt</li>
+<li>Bottom: 182 pt</li>
+<li>Right: 121 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Insert from Device [ Asset Records::Asset Name; Type: Bar Code; Camera: Back; Resolution: Full; Types: Code 39, Code 93, Code 128, EAN-8, EAN-13, EAN/UPC Composite, GS1 2-Digit Add-On, GS1 5-Digit Add-On, GS1 DataBar Expanded, GS1 DataBar (RSS), ITF-14, ISBN-10 (from EAN-13), ISBN-13 (from EAN-13), QR Code, UPC-A, UPC-E, Codabar ]<p>
+<b>Fields:</b>
+</p>
+<ul>
+<li><a href="#1343FieldAnchor_"><em>Asset Records</em>::Asset Name</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button144.0000000329.0000000182.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 144 pt</li>
+<li>Left: 329 pt</li>
+<li>Bottom: 182 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Insert from Device [ Asset Records::Target Tag; Type: Bar Code; Camera: Back; Resolution: Full; Types: Code 39, Code 93, Code 128, EAN-8, EAN-13, EAN/UPC Composite, GS1 2-Digit Add-On, GS1 5-Digit Add-On, GS1 DataBar Expanded, GS1 DataBar (RSS), ITF-14, ISBN-10 (from EAN-13), ISBN-13 (from EAN-13), QR Code, UPC-A, UPC-E, Codabar ]<p>
+<b>Fields:</b>
+</p>
+<ul>
+<li><a href="#13446FieldAnchor_"><em>Asset Records</em>::Target Tag</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button144.0000000205.0000000182.0000000245.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 144 pt</li>
+<li>Left: 205 pt</li>
+<li>Bottom: 182 pt</li>
+<li>Right: 245 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Insert from Device [ Asset Records::Serial; Type: Bar Code; Camera: Back; Resolution: Full; Types: Code 39, Code 93, Code 128, EAN-8, EAN-13, EAN/UPC Composite, GS1 2-Digit Add-On, GS1 5-Digit Add-On, GS1 DataBar Expanded, GS1 DataBar (RSS), ITF-14, ISBN-10 (from EAN-13), ISBN-13 (from EAN-13), QR Code, UPC-A, UPC-E, Codabar ]<p>
+<b>Fields:</b>
+</p>
+<ul>
+<li><a href="#1348FieldAnchor_"><em>Asset Records</em>::Serial</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button337.0000000284.0000000381.0000000339.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: +</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 337 pt</li>
+<li>Left: 284 pt</li>
+<li>Bottom: 381 pt</li>
+<li>Right: 339 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Set Field [ Asset Records::Asset SizeCapacity; Asset Records::Asset SizeCapacity + 1 ]<p>
+<b>Fields:</b>
+</p>
+<ul>
+<li><a href="#1349FieldAnchor_"><em>Asset Records</em>::Asset SizeCapacity</a></li>
+<li><a href="#1349FieldAnchor_"><em>Asset Records</em>::Asset SizeCapacity</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button423.0000000284.0000000467.0000000339.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: -</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 423 pt</li>
+<li>Left: 284 pt</li>
+<li>Bottom: 467 pt</li>
+<li>Right: 339 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Set Field [ Asset Records::Asset SizeCapacity; Asset Records::Asset SizeCapacity - 1 ]<p>
+<b>Fields:</b>
+</p>
+<ul>
+<li><a href="#1349FieldAnchor_"><em>Asset Records</em>::Asset SizeCapacity</a></li>
+<li><a href="#1349FieldAnchor_"><em>Asset Records</em>::Asset SizeCapacity</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button600.0000000245.0000000644.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: New</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 600 pt</li>
+<li>Left: 245 pt</li>
+<li>Bottom: 644 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Perform Script [ &ldquo;New Refrigerated Case from Form&rdquo;; Parameter: "New" ]<p>
+<b>Scripts:</b>
+</p>
+<ul>
+<li><a href="#30ScriptAnchor_">New Refrigerated Case from Form</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button649.0000000245.0000000693.0000000370.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: Duplicate</li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 649 pt</li>
+<li>Left: 245 pt</li>
+<li>Bottom: 693 pt</li>
+<li>Right: 370 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Perform Script [ &ldquo;New Refrigerated Case from Form&rdquo; ]<p>
+<b>Scripts:</b>
+</p>
+<ul>
+<li><a href="#30ScriptAnchor_">New Refrigerated Case from Form</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button1.00000000.000000034.000000045.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 1 pt</li>
+<li>Left: 0 pt</li>
+<li>Bottom: 34 pt</li>
+<li>Right: 45 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Go to Layout [ &ldquo;Site Assets&rdquo; (Sites) ]<p>
+<b>Layouts:</b>
+</p>
+<ul>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button546.0000000314.0000000590.0000000369.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 546 pt</li>
+<li>Left: 314 pt</li>
+<li>Bottom: 590 pt</li>
+<li>Right: 369 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Perform Script [ &ldquo;Delete Refrigerated Case&rdquo; ]<p>
+<b>Scripts:</b>
+</p>
+<ul>
+<li><a href="#31ScriptAnchor_">Delete Refrigerated Case</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartsubheads" valign="top">
+<td colspan="3">Button Properties</td><td colspan="1" width="14%">Coordinates</td><td colspan="3" width="43%">Script/Script Step</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="3"><a name="24Button600.00000006.0000000644.000000061.0000000LayoutObjectAnchor_"/><ul>
+<b>Type:</b>
+<li>Text: </li>
+</ul>
+<ul>
+<b>Layout Name:</b>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 600 pt</li>
+<li>Left: 6 pt</li>
+<li>Bottom: 644 pt</li>
+<li>Right: 61 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="3">Go to Layout [ &ldquo;Site Assets&rdquo; (Sites) ]<p>
+<b>Layouts:</b>
+</p>
+<ul>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>
 <span class="partheading">Layout Objects: <a href="#18LayoutAnchor_">-</a></span>
 </p>
 <p>
@@ -10104,7 +11591,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000120.000000045.0000000240.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.0000000120.000000045.0000000291.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10116,7 +11603,7 @@
 <li>Top: 24 pt</li>
 <li>Left: 120 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 240 pt</li>
+<li>Right: 291 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10143,7 +11630,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000240.000000045.0000000360.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.0000000291.000000045.0000000588.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10153,9 +11640,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 240 pt</li>
+<li>Left: 291 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 360 pt</li>
+<li>Right: 588 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10182,7 +11669,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000360.000000045.0000000480.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.0000000588.000000045.0000000708.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10192,9 +11679,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 360 pt</li>
+<li>Left: 588 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 480 pt</li>
+<li>Right: 708 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10221,7 +11708,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000480.000000045.0000000600.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.0000000708.000000045.0000000828.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10231,9 +11718,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 480 pt</li>
+<li>Left: 708 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 600 pt</li>
+<li>Right: 828 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10260,7 +11747,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000600.000000045.0000000720.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.0000000828.000000045.0000000948.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10270,9 +11757,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 600 pt</li>
+<li>Left: 828 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 720 pt</li>
+<li>Right: 948 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10299,7 +11786,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000720.000000045.0000000840.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.0000000948.000000045.00000001068.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10309,9 +11796,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 720 pt</li>
+<li>Left: 948 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 840 pt</li>
+<li>Right: 1068 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10338,7 +11825,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000840.000000045.0000000960.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001068.000000045.00000001188.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10348,9 +11835,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 840 pt</li>
+<li>Left: 1068 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 960 pt</li>
+<li>Right: 1188 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10377,7 +11864,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.0000000960.000000045.00000001080.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001188.000000045.00000001308.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10387,9 +11874,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 960 pt</li>
+<li>Left: 1188 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1080 pt</li>
+<li>Right: 1308 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10416,7 +11903,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001080.000000045.00000001200.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001308.000000045.00000001428.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10426,9 +11913,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1080 pt</li>
+<li>Left: 1308 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1200 pt</li>
+<li>Right: 1428 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10455,7 +11942,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001200.000000045.00000001320.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001428.000000045.00000001548.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10465,9 +11952,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1200 pt</li>
+<li>Left: 1428 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1320 pt</li>
+<li>Right: 1548 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10494,7 +11981,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001320.000000045.00000001440.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001548.000000045.00000001668.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10504,9 +11991,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1320 pt</li>
+<li>Left: 1548 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1440 pt</li>
+<li>Right: 1668 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10533,7 +12020,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001440.000000045.00000001560.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001668.000000045.00000001788.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10543,9 +12030,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1440 pt</li>
+<li>Left: 1668 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1560 pt</li>
+<li>Right: 1788 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10572,7 +12059,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001560.000000045.00000001680.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001788.000000045.00000001908.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10582,9 +12069,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1560 pt</li>
+<li>Left: 1788 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1680 pt</li>
+<li>Right: 1908 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10611,7 +12098,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001680.000000045.00000001800.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000001908.000000045.00000002028.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10621,9 +12108,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1680 pt</li>
+<li>Left: 1908 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1800 pt</li>
+<li>Right: 2028 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10650,7 +12137,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001800.000000045.00000001920.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002028.000000045.00000002148.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10660,9 +12147,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1800 pt</li>
+<li>Left: 2028 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 1920 pt</li>
+<li>Right: 2148 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10689,7 +12176,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000001920.000000045.00000002040.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002148.000000045.00000002268.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10699,9 +12186,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 1920 pt</li>
+<li>Left: 2148 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2040 pt</li>
+<li>Right: 2268 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10728,7 +12215,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002040.000000045.00000002160.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002268.000000045.00000002388.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10738,9 +12225,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2040 pt</li>
+<li>Left: 2268 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2160 pt</li>
+<li>Right: 2388 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10767,7 +12254,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002160.000000045.00000002280.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002388.000000045.00000002508.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10777,9 +12264,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2160 pt</li>
+<li>Left: 2388 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2280 pt</li>
+<li>Right: 2508 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10806,7 +12293,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002280.000000045.00000002400.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002508.000000045.00000002628.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10816,9 +12303,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2280 pt</li>
+<li>Left: 2508 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2400 pt</li>
+<li>Right: 2628 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10845,7 +12332,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002400.000000045.00000002520.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002628.000000045.00000002748.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10855,9 +12342,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2400 pt</li>
+<li>Left: 2628 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2520 pt</li>
+<li>Right: 2748 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10884,7 +12371,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002520.000000045.00000002640.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002748.000000045.00000002868.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10894,9 +12381,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2520 pt</li>
+<li>Left: 2748 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2640 pt</li>
+<li>Right: 2868 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10923,7 +12410,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002640.000000045.00000002760.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002868.000000045.00000002988.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10933,9 +12420,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2640 pt</li>
+<li>Left: 2868 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2760 pt</li>
+<li>Right: 2988 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -10962,7 +12449,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002760.000000045.00000002880.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000002988.000000045.00000003108.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -10972,9 +12459,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2760 pt</li>
+<li>Left: 2988 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 2880 pt</li>
+<li>Right: 3108 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11001,7 +12488,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000002880.000000045.00000003000.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003108.000000045.00000003228.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11011,9 +12498,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 2880 pt</li>
+<li>Left: 3108 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3000 pt</li>
+<li>Right: 3228 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11040,7 +12527,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003000.000000045.00000003120.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003228.000000045.00000003348.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11050,9 +12537,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3000 pt</li>
+<li>Left: 3228 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3120 pt</li>
+<li>Right: 3348 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11079,7 +12566,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003120.000000045.00000003240.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003348.000000045.00000003468.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11089,9 +12576,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3120 pt</li>
+<li>Left: 3348 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3240 pt</li>
+<li>Right: 3468 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11118,7 +12605,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003240.000000045.00000003360.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003468.000000045.00000003588.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11128,9 +12615,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3240 pt</li>
+<li>Left: 3468 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3360 pt</li>
+<li>Right: 3588 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11157,7 +12644,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003360.000000045.00000003480.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003588.000000045.00000003708.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11167,9 +12654,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3360 pt</li>
+<li>Left: 3588 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3480 pt</li>
+<li>Right: 3708 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11196,7 +12683,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003480.000000045.00000003600.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003708.000000045.00000003828.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11206,9 +12693,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3480 pt</li>
+<li>Left: 3708 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3600 pt</li>
+<li>Right: 3828 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11235,7 +12722,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003600.000000045.00000003720.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003828.000000045.00000003948.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11245,9 +12732,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3600 pt</li>
+<li>Left: 3828 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3720 pt</li>
+<li>Right: 3948 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11274,7 +12761,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003720.000000045.00000003840.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000003948.000000045.00000004068.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11284,9 +12771,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3720 pt</li>
+<li>Left: 3948 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3840 pt</li>
+<li>Right: 4068 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11313,7 +12800,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003840.000000045.00000003960.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004068.000000045.00000004188.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11323,9 +12810,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3840 pt</li>
+<li>Left: 4068 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 3960 pt</li>
+<li>Right: 4188 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11352,7 +12839,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000003960.000000045.00000004080.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004188.000000045.00000004308.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11362,9 +12849,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 3960 pt</li>
+<li>Left: 4188 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4080 pt</li>
+<li>Right: 4308 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11391,7 +12878,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000004080.000000045.00000004200.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004308.000000045.00000004428.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11401,9 +12888,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 4080 pt</li>
+<li>Left: 4308 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4200 pt</li>
+<li>Right: 4428 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11430,7 +12917,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000004200.000000045.00000004320.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004428.000000045.00000004548.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11440,9 +12927,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 4200 pt</li>
+<li>Left: 4428 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4320 pt</li>
+<li>Right: 4548 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11469,7 +12956,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000004320.000000045.00000004440.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004548.000000045.00000004668.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11479,9 +12966,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 4320 pt</li>
+<li>Left: 4548 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4440 pt</li>
+<li>Right: 4668 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11508,7 +12995,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000004440.000000045.00000004560.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004668.000000045.00000004788.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11518,9 +13005,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 4440 pt</li>
+<li>Left: 4668 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4560 pt</li>
+<li>Right: 4788 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11547,7 +13034,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000004560.000000045.00000004680.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004788.000000045.00000004908.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11557,9 +13044,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 4560 pt</li>
+<li>Left: 4788 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4680 pt</li>
+<li>Right: 4908 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11586,7 +13073,7 @@
 <td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
 </tr>
 <tr class="regularcharttext" valign="top">
-<td colspan="2"><a name="20Field24.00000004680.000000045.00000004800.0000000LayoutObjectAnchor_"/><ul>
+<td colspan="2"><a name="20Field24.00000004908.000000045.00000005028.0000000LayoutObjectAnchor_"/><ul>
 <b>Layout Name:</b>
 <li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
 <p></p>
@@ -11596,9 +13083,9 @@
 </td><td colspan="1">
 <ul>
 <li>Top: 24 pt</li>
-<li>Left: 4680 pt</li>
+<li>Left: 4908 pt</li>
 <li>Bottom: 45 pt</li>
-<li>Right: 4800 pt</li>
+<li>Right: 5028 pt</li>
 </ul>
 <ul>
 <li>Anchoring: Left, Top</li>
@@ -11612,6 +13099,45 @@
 <li>Go to next field using: Tab key</li>
 </ul>
 </td><td colspan="1">Yes</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table width="100%" border="1">
+<tbody>
+<tr class="chartheaders" valign="top">
+<td colspan="6" class="privsetfirst">Field Name: <a href="#13442FieldAnchor_"><em>Asset Templates</em>::TEMPLATE KEY</a></td>
+</tr>
+<tr class="chartsubheads" valign="top">
+<td class="chartheaders" colspan="2">Field Properties</td><td class="chartheaders" width="14%" colspan="1">Coordinates</td><td class="chartheaders" width="17%" colspan="1">Field Format</td><td class="chartheaders" width="30%" colspan="1">Field Behavior</td><td class="chartheaders" width="10%" colspan="1">Quick Find</td>
+</tr>
+<tr class="regularcharttext" valign="top">
+<td colspan="2"><a name="20Field24.00000005028.000000045.00000005148.0000000LayoutObjectAnchor_"/><ul>
+<b>Layout Name:</b>
+<li><a href="#20LayoutAnchor_">Asset Templates Table</a></li>
+<p></p>
+<b>Visibility:</b>
+<li>Only visible in Table View</li>
+</ul>
+</td><td colspan="1">
+<ul>
+<li>Top: 24 pt</li>
+<li>Left: 5028 pt</li>
+<li>Bottom: 45 pt</li>
+<li>Right: 5148 pt</li>
+</ul>
+<ul>
+<li>Anchoring: Left, Top</li>
+</ul>
+</td><td colspan="1">Field Format: <ul>
+<li>Edit Box</li>
+</ul>
+</td><td colspan="1">Field Behavior:<ul>
+<li>Allow field to be entered: In Find mode, In Browse mode</li>
+<li>Touch keyboard type: Default for Data Type</li>
+<li>Go to next field using: Tab key</li>
+</ul>
+</td><td colspan="1">No</td>
 </tr>
 </tbody>
 </table>
@@ -11836,17 +13362,19 @@
 </td><td>
 <ul>
 <li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 </ul>
 </td>
 </tr>
 <tr class="regularcharttext">
 <td><a name="20VLAnchor_"/>AREA SERVED Hard code</td><td>Custom</td><td>
 <ul>
-<li>Guest Service, Food Service, Starbucks, Pharmacy, Office, Stock, Receiving , Sales, Sales Market, Sales Checklanes, Sales Fitting Rooms, Clinic, Optical</li>
+<li>Clinic, Food Service, Guest Service, Office, Optical, Pharmacy, Receiving , Sales, Sales Checklanes, Sales Fitting Rooms, Sales Market, Starbucks, Stock</li>
 </ul>
 </td><td>
 <ul>
 <li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 </ul>
 </td>
 </tr>
@@ -11860,6 +13388,50 @@
 </td><td>
 <ul>
 <li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext">
+<td><a name="22VLAnchor_"/>New Value List</td><td>Custom</td><td>
+<ul>
+<li>Doors, Feet</li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext">
+<td><a name="23VLAnchor_"/>Good/Fair/Poor</td><td>Custom</td><td>
+<ul>
+<li>Good, Fair, Poor</li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext">
+<td><a name="24VLAnchor_"/>Lighting Type - alt</td><td>Custom</td><td>
+<ul>
+<li>CFL, LED, Other</li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+<tr class="regularcharttext">
+<td><a name="25VLAnchor_"/>LIGHTING MANUFACTURER</td><td>Custom</td><td>
+<ul>
+<li>Anthony, GE, GE - GEN3, HillPhoenix, Hussmann, Philips, Sloan, -, Other</li>
+</ul>
+</td><td>
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 </ul>
 </td>
 </tr>
@@ -11880,7 +13452,11 @@
 <tr class="script_hier_guide">
 <td class="script_hier_spacer"></td><td class="script_hier">
 <table class="script_hier">
-<tbody></tbody>
+<tbody>
+<tr>
+<td class="script_hier"><a name="28ScriptAnchor_toc"></a><a href="#28ScriptAnchor_">Scan Asset Name</a></td>
+</tr>
+</tbody>
 </table>
 </td>
 </tr>
@@ -11889,10 +13465,13 @@
 </td>
 </tr>
 <tr>
+<td class="script_hier"><a name="20ScriptAnchor_toc"></a><a href="#20ScriptAnchor_">Resize Window</a></td>
+</tr>
+<tr>
 <td class="script_hier"><a name="13ScriptAnchor_toc"></a><a href="#13ScriptAnchor_">Open Asset Record</a></td>
 </tr>
 <tr>
-<td class="script_hier"><a name="14ScriptAnchor_toc"></a><a href="#14ScriptAnchor_">New Asset Record</a></td>
+<td class="script_hier"><a name="14ScriptAnchor_toc"></a><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></td>
 </tr>
 <tr>
 <td class="script_hier"><a name="15ScriptAnchor_toc"></a><a href="#15ScriptAnchor_">Asset | Apply Template</a></td>
@@ -11910,19 +13489,13 @@
 <td class="script_hier"><a name="19ScriptAnchor_toc"></a><a href="#19ScriptAnchor_">Open Camera if Empty</a></td>
 </tr>
 <tr>
-<td class="script_hier"><a name="20ScriptAnchor_toc"></a><a href="#20ScriptAnchor_">Resize Window</a></td>
-</tr>
-<tr>
 <td class="script_hier"><a name="21ScriptAnchor_toc"></a><a href="#21ScriptAnchor_">Filter by State</a></td>
 </tr>
 <tr>
 <td class="script_hier"><a name="22ScriptAnchor_toc"></a><a href="#22ScriptAnchor_">Open Site</a></td>
 </tr>
 <tr>
-<td class="script_hier"><a name="23ScriptAnchor_toc"></a><a href="#23ScriptAnchor_">New Script</a></td>
-</tr>
-<tr>
-<td class="script_hier"><a name="24ScriptAnchor_toc"></a><a href="#24ScriptAnchor_">New Script</a></td>
+<td class="script_hier"><a name="23ScriptAnchor_toc"></a><a href="#23ScriptAnchor_">Sticky Tabs - Save</a></td>
 </tr>
 <tr>
 <td class="script_hier"><a name="25ScriptAnchor_toc"></a><a href="#25ScriptAnchor_">Duplicate Record</a></td>
@@ -11930,13 +13503,110 @@
 <tr>
 <td class="script_hier"><a name="26ScriptAnchor_toc"></a><a href="#26ScriptAnchor_">EXPORT FOR GIT</a></td>
 </tr>
+<tr>
+<td class="script_hier"><a name="29ScriptAnchor_toc"></a><a href="#29ScriptAnchor_">Save Last Location</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="30ScriptAnchor_toc"></a><a href="#30ScriptAnchor_">New Refrigerated Case from Form</a></td>
+</tr>
+<tr>
+<td class="script_hier"><a name="31ScriptAnchor_toc"></a><a href="#31ScriptAnchor_">Delete Refrigerated Case</a></td>
+</tr>
 </tbody>
 </table>
 <br>
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="13ScriptAnchor_"></a><td class="script_navbar"></td><td class="script_navbar"></td><td class="script_navbar"><a href="#14ScriptAnchor_"><span>Next Script: [New Asset Record]</span></a></td>
+<a name="20ScriptAnchor_"></a><td class="script_navbar"></td><td class="script_navbar"></td><td class="script_navbar"><a href="#13ScriptAnchor_"><span>Next Script: [Open Asset Record]</span></a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td width="35%">Script Name</td><td width="65%">Resize Window</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Script Definition</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
+<ul>
+<li>If [ Get(Device) = 3 or Get(Device) = 4 ]</li>
+<li>Adjust Window
+[ Resize to Fit ]</li>
+<li>Show/Hide Menubar
+[ Hide ]</li>
+<li>Show/Hide Toolbars
+[ Hide ]</li>
+<li>Else</li>
+<li>Show/Hide Menubar
+[ Show ]</li>
+<li>Show/Hide Toolbars
+[ Show ]</li>
+<li>End If</li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="script_navbar">
+<tbody>
+<tr class="script_navbar">
+<a name="13ScriptAnchor_"></a><td class="script_navbar"><a href="#20ScriptAnchor_"><span>Previous Script: [Resize Window]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#14ScriptAnchor_"><span>Next Script: [New Refrigerated Case Record]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -12025,7 +13695,7 @@
 <table width="100%" border="1">
 <tbody>
 <tr class="privsetfirst" vAlign="top">
-<td width="35%">Script Name</td><td width="65%">New Asset Record</td>
+<td width="35%">Script Name</td><td width="65%">New Refrigerated Case Record</td>
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
@@ -12035,7 +13705,9 @@
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
-<ul></ul>
+<ul>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
 </td>
 </tr>
 <tr vAlign="top">
@@ -12052,9 +13724,20 @@
 <td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
 <ul>
 <li>Set Variable [ $SiteID; Value:Sites::Site ID ]</li>
-<li>Go to Layout [ &ldquo;Asset Record Form&rdquo; (Asset Records) ]</li>
+<li>Go to Layout [ &ldquo;Refrigerated Cases Form&rdquo; (Asset Records) ]</li>
 <li>New Record/Request</li>
 <li>Set Field [ Asset Records::Site ID; $SiteID ]</li>
+<li>Set Field [ Asset Records::Asset Category; "Refrigerated Cases" ]</li>
+<li>Set Field [ Asset Records::Asset Type; "Refrigerated Cases" ]</li>
+<li>If [ $$LastLocation  &ne; "" ]</li>
+<li>Set Field [ Asset Records::Location; $$LastLocation ]</li>
+<li>Else</li>
+<li>Go to Field [ Asset Records::Location ]</li>
+<li>End If</li>
+<li>If [ $$LastAreaServed  &ne; "" ]</li>
+<li>Set Field [ Asset Records::Area ServedServiced; $$LastAreaServed ]</li>
+<li>End If</li>
+<li></li>
 </ul>
 </td>
 </tr>
@@ -12063,6 +13746,10 @@
 <ul>
 <li><a href="#1301FieldAnchor_"><em>Sites</em>::Site ID</a></li>
 <li><a href="#13436FieldAnchor_"><em>Asset Records</em>::Site ID</a></li>
+<li><a href="#1341FieldAnchor_"><em>Asset Records</em>::Asset Category</a></li>
+<li><a href="#1342FieldAnchor_"><em>Asset Records</em>::Asset Type</a></li>
+<li><a href="#1344FieldAnchor_"><em>Asset Records</em>::Location</a></li>
+<li><a href="#1345FieldAnchor_"><em>Asset Records</em>::Area ServedServiced</a></li>
 </ul>
 </td>
 </tr>
@@ -12074,7 +13761,7 @@
 <tr vAlign="top">
 <td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
 <ul>
-<li><a href="#17LayoutAnchor_">Asset Record Form</a></li>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
 </ul>
 </td>
 </tr>
@@ -12110,7 +13797,7 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="15ScriptAnchor_"></a><td class="script_navbar"><a href="#14ScriptAnchor_"><span>Previous Script: [New Asset Record]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#16ScriptAnchor_"><span>Next Script: [Asset Form | Clear Type]</span></a></td>
+<a name="15ScriptAnchor_"></a><td class="script_navbar"><a href="#14ScriptAnchor_"><span>Previous Script: [New Refrigerated Case Record]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#16ScriptAnchor_"><span>Next Script: [Asset Form | Clear Type]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -12495,7 +14182,7 @@
 <tr vAlign="top">
 <td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
 <ul>
-<li>Perform Script [ &ldquo;New Asset Record&rdquo; ]</li>
+<li>Perform Script [ &ldquo;New Refrigerated Case Record&rdquo; ]</li>
 <li>Set Field [ Asset Records::Asset Category; Get(ScriptParameter) ]</li>
 <li>If [ Get(ScriptParameter) = "Self" ]</li>
 <li>Set Field [ Asset Records::Asset Type; "Self-Contained" ]</li>
@@ -12519,7 +14206,7 @@
 <tr vAlign="top">
 <td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
 <ul>
-<li><a href="#14ScriptAnchor_">New Asset Record</a></li>
+<li><a href="#14ScriptAnchor_">New Refrigerated Case Record</a></li>
 </ul>
 </td>
 </tr>
@@ -12558,7 +14245,7 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="19ScriptAnchor_"></a><td class="script_navbar"><a href="#18ScriptAnchor_"><span>Previous Script: [Site Assets NEW]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#20ScriptAnchor_"><span>Next Script: [Resize Window]</span></a></td>
+<a name="19ScriptAnchor_"></a><td class="script_navbar"><a href="#18ScriptAnchor_"><span>Previous Script: [Site Assets NEW]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#21ScriptAnchor_"><span>Next Script: [Filter by State]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -12652,84 +14339,7 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="20ScriptAnchor_"></a><td class="script_navbar"><a href="#19ScriptAnchor_"><span>Previous Script: [Open Camera if Empty]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#21ScriptAnchor_"><span>Next Script: [Filter by State]</span></a></td>
-</tr>
-</tbody>
-</table>
-<table width="100%" border="1">
-<tbody>
-<tr class="privsetfirst" vAlign="top">
-<td width="35%">Script Name</td><td width="65%">Resize Window</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartsubheads" colSpan="2">Script Definition</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
-<ul>
-<li>Adjust Window
-[ Resize to Fit ]</li>
-</ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-</tbody>
-</table>
-<br>
-<table class="script_navbar">
-<tbody>
-<tr class="script_navbar">
-<a name="21ScriptAnchor_"></a><td class="script_navbar"><a href="#20ScriptAnchor_"><span>Previous Script: [Resize Window]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#22ScriptAnchor_"><span>Next Script: [Open Site]</span></a></td>
+<a name="21ScriptAnchor_"></a><td class="script_navbar"><a href="#19ScriptAnchor_"><span>Previous Script: [Open Camera if Empty]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#22ScriptAnchor_"><span>Next Script: [Open Site]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -12819,7 +14429,7 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="22ScriptAnchor_"></a><td class="script_navbar"><a href="#21ScriptAnchor_"><span>Previous Script: [Filter by State]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#23ScriptAnchor_"><span>Next Script: [New Script]</span></a></td>
+<a name="22ScriptAnchor_"></a><td class="script_navbar"><a href="#21ScriptAnchor_"><span>Previous Script: [Filter by State]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#23ScriptAnchor_"><span>Next Script: [Sticky Tabs - Save]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -12902,14 +14512,14 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="23ScriptAnchor_"></a><td class="script_navbar"><a href="#22ScriptAnchor_"><span>Previous Script: [Open Site]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#24ScriptAnchor_"><span>Next Script: [New Script]</span></a></td>
+<a name="23ScriptAnchor_"></a><td class="script_navbar"><a href="#22ScriptAnchor_"><span>Previous Script: [Open Site]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#25ScriptAnchor_"><span>Next Script: [Duplicate Record]</span></a></td>
 </tr>
 </tbody>
 </table>
 <table width="100%" border="1">
 <tbody>
 <tr class="privsetfirst" vAlign="top">
-<td width="35%">Script Name</td><td width="65%">New Script</td>
+<td width="35%">Script Name</td><td width="65%">Sticky Tabs - Save</td>
 </tr>
 <tr vAlign="top">
 <td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
@@ -12978,81 +14588,7 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="24ScriptAnchor_"></a><td class="script_navbar"><a href="#23ScriptAnchor_"><span>Previous Script: [New Script]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#25ScriptAnchor_"><span>Next Script: [Duplicate Record]</span></a></td>
-</tr>
-</tbody>
-</table>
-<table width="100%" border="1">
-<tbody>
-<tr class="privsetfirst" vAlign="top">
-<td width="35%">Script Name</td><td width="65%">New Script</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartsubheads" colSpan="2">Script Definition</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-<tr vAlign="top">
-<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
-<ul></ul>
-</td>
-</tr>
-</tbody>
-</table>
-<br>
-<table class="script_navbar">
-<tbody>
-<tr class="script_navbar">
-<a name="25ScriptAnchor_"></a><td class="script_navbar"><a href="#24ScriptAnchor_"><span>Previous Script: [New Script]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#26ScriptAnchor_"><span>Next Script: [EXPORT FOR GIT]</span></a></td>
+<a name="25ScriptAnchor_"></a><td class="script_navbar"><a href="#23ScriptAnchor_"><span>Previous Script: [Sticky Tabs - Save]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#26ScriptAnchor_"><span>Next Script: [EXPORT FOR GIT]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -13146,7 +14682,7 @@
 <table class="script_navbar">
 <tbody>
 <tr class="script_navbar">
-<a name="26ScriptAnchor_"></a><td class="script_navbar"><a href="#25ScriptAnchor_"><span>Previous Script: [Duplicate Record]</span></a></td><td class="script_navbar"></td><td class="script_navbar"></td>
+<a name="26ScriptAnchor_"></a><td class="script_navbar"><a href="#25ScriptAnchor_"><span>Previous Script: [Duplicate Record]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#29ScriptAnchor_"><span>Next Script: [Save Last Location]</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -13336,9 +14872,370 @@ Refrigerant Types::RefrigerantType ]</li>
 </tbody>
 </table>
 <br>
+<table class="script_navbar">
+<tbody>
+<tr class="script_navbar">
+<a name="29ScriptAnchor_"></a><td class="script_navbar"><a href="#26ScriptAnchor_"><span>Previous Script: [EXPORT FOR GIT]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#30ScriptAnchor_"><span>Next Script: [New Refrigerated Case from Form]</span></a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td width="35%">Script Name</td><td width="65%">Save Last Location</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Script Definition</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
+<ul>
+<li>Set Variable [ $$LastLocation; Value:Asset Records::Location ]</li>
+<li>Go to Field [ Asset Records::Area ServedServiced ]</li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1344FieldAnchor_"><em>Asset Records</em>::Location</a></li>
+<li><a href="#1345FieldAnchor_"><em>Asset Records</em>::Area ServedServiced</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#134BaseTableAnchor_">Assets</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="script_navbar">
+<tbody>
+<tr class="script_navbar">
+<a name="30ScriptAnchor_"></a><td class="script_navbar"><a href="#29ScriptAnchor_"><span>Previous Script: [Save Last Location]</span></a></td><td class="script_navbar"></td><td class="script_navbar"><a href="#31ScriptAnchor_"><span>Next Script: [Delete Refrigerated Case]</span></a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td width="35%">Script Name</td><td width="65%">New Refrigerated Case from Form</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Script Definition</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
+<ul>
+<li>Duplicate Record/Request</li>
+<li>Set Field [ Asset Records::Asset Name; "" ]</li>
+<li>Set Field [ Asset Records::Target Tag; "" ]</li>
+<li>Set Field [ Asset Records::Serial; "" ]</li>
+<li>Set Field [ Asset Records::Photo1; "" ]</li>
+<li>Set Field [ Asset Records::Photo2; "" ]</li>
+<li>Set Field [ Asset Records::Photo3; "" ]</li>
+<li>Set Field [ Asset Records::Photo4; "" ]</li>
+<li>Set Field [ Asset Records::Photo5; "" ]</li>
+<li>Set Field [ Asset Records::Photo6; "" ]</li>
+<li>If [ Get(ScriptParameter) = "New" ]</li>
+<li>Set Field [ Asset Records::Asset SizeCapacity; 6 ]</li>
+<li>Set Field [ Asset Records::Unit of Measure; "" ]</li>
+<li>Set Field [ Asset Records::Overall Condition; "" ]</li>
+<li>Set Field [ Asset Records::Lighting Manufacturer; "" ]</li>
+<li>End If</li>
+<li>Go to Field [ Asset Records::Asset Name ]</li>
+<li></li>
+<li></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1343FieldAnchor_"><em>Asset Records</em>::Asset Name</a></li>
+<li><a href="#13446FieldAnchor_"><em>Asset Records</em>::Target Tag</a></li>
+<li><a href="#1348FieldAnchor_"><em>Asset Records</em>::Serial</a></li>
+<li><a href="#13437FieldAnchor_"><em>Asset Records</em>::Photo1</a></li>
+<li><a href="#13438FieldAnchor_"><em>Asset Records</em>::Photo2</a></li>
+<li><a href="#13439FieldAnchor_"><em>Asset Records</em>::Photo3</a></li>
+<li><a href="#13443FieldAnchor_"><em>Asset Records</em>::Photo4</a></li>
+<li><a href="#13444FieldAnchor_"><em>Asset Records</em>::Photo5</a></li>
+<li><a href="#13445FieldAnchor_"><em>Asset Records</em>::Photo6</a></li>
+<li><a href="#1349FieldAnchor_"><em>Asset Records</em>::Asset SizeCapacity</a></li>
+<li><a href="#13410FieldAnchor_"><em>Asset Records</em>::Unit of Measure</a></li>
+<li><a href="#13430FieldAnchor_"><em>Asset Records</em>::Overall Condition</a></li>
+<li><a href="#13427FieldAnchor_"><em>Asset Records</em>::Lighting Manufacturer</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#134BaseTableAnchor_">Assets</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="script_navbar">
+<tbody>
+<tr class="script_navbar">
+<a name="31ScriptAnchor_"></a><td class="script_navbar"><a href="#30ScriptAnchor_"><span>Previous Script: [New Refrigerated Case from Form]</span></a></td><td class="script_navbar"></td><td class="script_navbar"></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td width="35%">Script Name</td><td width="65%">Delete Refrigerated Case</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">Yes</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#24LayoutAnchor_">Refrigerated Cases Form</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Script Definition</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
+<ul>
+<li>Delete Record/Request</li>
+<li>Go to Layout [ &ldquo;Site Assets&rdquo; (Sites) ]</li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#16LayoutAnchor_">Site Assets</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
 <p>
 <span class="partheading"><a name="1ScriptAnchor_"></a><a href="#1ScriptAnchor_toc">Scripts for Buttons</a></span>
 </p>
+<table class="script_navbar">
+<tbody>
+<tr class="script_navbar">
+<a name="28ScriptAnchor_"></a><td class="script_navbar"></td><td class="script_navbar"><a href="#1ScriptAnchor_"><span>Parent Folder: [Scripts for Buttons]</span></a></td><td class="script_navbar"></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1">
+<tbody>
+<tr class="privsetfirst" vAlign="top">
+<td width="35%">Script Name</td><td width="65%">Scan Asset Name</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Run script with full access privileges</td><td class="regularcharttext">Off</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Include In Menu</td><td class="regularcharttext">No</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts that use this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartsubheads" colSpan="2">Script Definition</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Script Steps</td><td class="regularcharttext">
+<ul>
+<li>Insert from Device [ Asset Records::Asset Name; Type: Bar Code; Camera: Back; Resolution: Full; Types: Code 39, Code 93, Code 128, EAN-8, EAN-13, EAN/UPC Composite, GS1 2-Digit Add-On, GS1 5-Digit Add-On, GS1 DataBar Expanded, GS1 DataBar (RSS), ITF-14, ISBN-10 (from EAN-13), ISBN-13 (from EAN-13), QR Code, UPC-A, UPC-E, Codabar ]</li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Fields used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1343FieldAnchor_"><em>Asset Records</em>::Asset Name</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Scripts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Layouts used in this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Tables used in this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#134BaseTableAnchor_">Assets</a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Table occurrences used by this script</td><td class="regularcharttext">
+<ul>
+<li><a href="#1065098TableAnchor_"><em>Asset Records</em></a></li>
+</ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom Functions used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+<tr vAlign="top">
+<td class="chartheadersnobg">Custom menu set used by this script</td><td class="regularcharttext">
+<ul></ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
 <p>
 <span class="partheading"><a name="valAccountsSectionAnchor_"/>Accounts</span>
 </p>
